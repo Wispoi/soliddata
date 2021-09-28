@@ -1,0 +1,2956 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title></title>
+	<meta name="description" content="">
+
+	<meta name="viewport" content="width=device-width">
+
+	<link rel="icon" href="img/favicon.png">
+
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+		integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw=="
+		crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+		integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+		crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+		integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+		crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/8.5.15/mmenu.min.css"
+		integrity="sha512-ClWfJ/FDJyFrmIDznTjknYPEQDmUUhtTZorj0AhKBt6dG4YnjO6/RTeU0eijUvrgGZqDuKok6x7yA0dBNvWeVw=="
+		crossorigin="anonymous" />
+	<link rel="stylesheet" href="css/styles.min.css">
+
+</head>
+
+<body>
+	<nav class="mobile-nav" id="mobileMenu">
+		<ul>
+			<li class="active">
+				<a href="/">
+					Главная
+				</a>
+			</li>
+			<li>
+				<a href="news.html">
+					Новости
+				</a>
+			</li>
+			<li>
+				<a href="program.html">
+					Программы
+				</a>
+			</li>
+			<li>
+				<a href="education.html">
+					Обучение
+				</a>
+			</li>
+			<li>
+				<a href="video.html">
+					Видеоруководство
+				</a>
+			</li>
+			<li>
+				<a href="support.html">
+					Поддержка
+				</a>
+			</li>
+			<li>
+				<a href="contacts.html">
+					Контакты
+				</a>
+			</li>
+			<li>
+				<a href="" target="_blank">
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M2.85902 2.877L15.429 1.082C15.5 1.07182 15.5723 1.07702 15.641 1.09723C15.7098 1.11744 15.7734 1.15219 15.8275 1.19913C15.8817 1.24608 15.9251 1.30411 15.9549 1.36931C15.9846 1.4345 16 1.50534 16 1.577V22.423C16 22.4946 15.9846 22.5653 15.9549 22.6304C15.9252 22.6955 15.8819 22.7535 15.8279 22.8004C15.7738 22.8474 15.7103 22.8821 15.6417 22.9024C15.5731 22.9227 15.5009 22.928 15.43 22.918L2.85802 21.123C2.61964 21.0891 2.40152 20.9702 2.24371 20.7884C2.08591 20.6065 1.99903 20.3738 1.99902 20.133V3.867C1.99903 3.62621 2.08591 3.39351 2.24371 3.21164C2.40152 3.02978 2.61964 2.91095 2.85802 2.877H2.85902ZM4.00002 4.735V19.265L14 20.694V3.306L4.00002 4.735ZM17 19H20V5H17V3H21C21.2652 3 21.5196 3.10536 21.7071 3.29289C21.8947 3.48043 22 3.73478 22 4V20C22 20.2652 21.8947 20.5196 21.7071 20.7071C21.5196 20.8946 21.2652 21 21 21H17V19ZM10.2 12L13 16H10.6L9.00002 13.714L7.40002 16H5.00002L7.80002 12L5.00002 8H7.40002L9.00002 10.286L10.6 8H13L10.2 12Z"
+							fill="#2F80ED" />
+					</svg>
+					Прайс лист
+				</a>
+				<ul class="dropdown-list">
+					<li>
+						<a href="" target="_blank">
+							Прайс 1
+						</a>
+					</li>
+					<li>
+						<a href="" target="_blank">
+							Прайс 2
+						</a>
+					</li>
+					<li>
+						<a href="" target="_blank">
+							Прайс 3
+						</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="">
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M19.937 8.68C19.926 8.648 19.917 8.617 19.904 8.586C19.855 8.48 19.794 8.379 19.708 8.293L13.708 2.293C13.622 2.207 13.521 2.146 13.415 2.097C13.385 2.083 13.353 2.075 13.321 2.064C13.237 2.036 13.151 2.018 13.062 2.013C13.04 2.011 13.021 2 13 2H6C4.897 2 4 2.897 4 4V20C4 21.103 4.897 22 6 22H18C19.103 22 20 21.103 20 20V9C20 8.979 19.989 8.96 19.987 8.938C19.982 8.85 19.965 8.764 19.937 8.68ZM16.586 8H14V5.414L16.586 8ZM6 20V4H12V9C12 9.553 12.447 10 13 10H18L18.002 20H6Z"
+							fill="#2F80ED" />
+					</svg>
+					Файлы
+				</a>
+				<ul class="dropdown-list">
+					<li>
+						<a href="" target="_blank">
+							Демо версия
+						</a>
+					</li>
+					<li>
+						<a href="" target="_blank">
+							Вторая версия
+						</a>
+					</li>
+					<li>
+						<a href="" target="_blank">
+							Третья
+						</a>
+					</li>
+					<li>
+						<a href="" target="_blank">
+							Инструкция по использованию
+						</a>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+	<header>
+		<div class="section-wrapper">
+			<div class="header-row">
+				<div class="header-wrapper">
+					<a href="/" class="header-logo">
+						<img src="img/content/logo.svg" alt="">
+					</a>
+					<div class="header-contact">
+						<ul>
+							<li>
+								<a href="mailto:support@belsmeta.by">
+									support@belsmeta.by
+								</a>
+							</li>
+							<li>
+								<a href="tel:+375(29) 358-15-88">
+									+375(29) 358-15-88
+								</a>
+							</li>
+							<li>
+								<a href="tel:+375(29) 558-15-88">
+									+375(29) 558-15-88
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="header-profile">
+						<div class="header-profile__login open-modal" data-modal="enterModal">
+							<svg width="18" height="19" viewBox="0 0 18 19" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M16.4926 19H1.28666C0.584845 19 0 18.4152 0 17.7134V17.1285C0 14.3213 1.75453 11.8064 4.50331 10.4028C3.85998 9.29159 3.50907 8.00493 3.50907 6.6013C3.50907 2.97527 5.90693 0.0510406 8.88964 0.0510406C11.8724 0.0510406 14.2702 2.97527 14.2702 6.6013C14.2702 7.94645 13.9193 9.29159 13.276 10.4028C16.0832 11.7479 17.7793 14.3213 17.7793 17.1285V17.7134C17.7793 18.4152 17.1944 19 16.4926 19ZM8.88964 11.1631C10.7027 11.1631 12.2817 9.05765 12.2817 6.6013C12.2817 4.14496 10.7027 2.03951 8.88964 2.03951C7.07662 2.03951 5.49754 4.14496 5.49754 6.6013C5.49754 9.05765 7.07662 11.1631 8.88964 11.1631ZM15.7908 17.0115C15.7323 14.9061 14.2702 12.9176 11.9308 11.9819C11.0536 12.7422 10.0008 13.1516 8.88964 13.1516C7.77844 13.1516 6.72572 12.7422 5.84845 11.9819C3.56755 12.9176 2.04696 14.9061 1.98847 17.0115H15.7908Z"
+									fill="#2F80ED" />
+							</svg>
+							Войти
+						</div>
+					</div>
+					<div class="header-mobile">
+						<div class="header-mobile__icon">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header-row">
+				<div class="header-wrapper">
+					<div class="header-nav">
+						<ul>
+							<li class="active">
+								<a href="/">
+									<svg width="18" height="20" viewBox="0 0 18 20" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M8.53585 0.910881C8.80811 0.696373 9.19189 0.696373 9.46415 0.910881L16.5708 6.51003C17.4733 7.2211 18 8.30666 18 9.45563V18.75C18 19.4404 17.4404 20 16.75 20H11.75C11.0596 20 10.5 19.4404 10.5 18.75V13.75C10.5 13.6119 10.3881 13.5 10.25 13.5H7.75C7.61193 13.5 7.5 13.6119 7.5 13.75V18.75C7.5 19.4404 6.94036 20 6.25 20H1.25C0.559644 20 0 19.4404 0 18.75V9.45563C0 8.30666 0.526724 7.2211 1.42923 6.51003L8.53585 0.910881ZM9 2.45482L2.35754 7.68827C1.81603 8.11491 1.5 8.76625 1.5 9.45563V18.5H6V13.75C6 12.7835 6.7835 12 7.75 12H10.25C11.2165 12 12 12.7835 12 13.75V18.5H16.5V9.45563C16.5 8.76625 16.184 8.11491 15.6425 7.68827L9 2.45482Z"
+											fill="#212121" />
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="news.html">
+									Новости
+								</a>
+							</li>
+							<li>
+								<a href="program.html">
+									Программы
+								</a>
+							</li>
+							<li>
+								<a href="education.html">
+									Обучение
+								</a>
+							</li>
+							<li>
+								<a href="video.html">
+									Видеоруководство
+								</a>
+							</li>
+							<li>
+								<a href="support.html">
+									Поддержка
+								</a>
+							</li>
+							<li>
+								<a href="contacts.html">
+									Контакты
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="header-buttons">
+						<ul>
+							<li>
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M2.85902 2.877L15.429 1.082C15.5 1.07182 15.5723 1.07702 15.641 1.09723C15.7098 1.11744 15.7734 1.15219 15.8275 1.19913C15.8817 1.24608 15.9251 1.30411 15.9549 1.36931C15.9846 1.4345 16 1.50534 16 1.577V22.423C16 22.4946 15.9846 22.5653 15.9549 22.6304C15.9252 22.6955 15.8819 22.7535 15.8279 22.8004C15.7738 22.8474 15.7103 22.8821 15.6417 22.9024C15.5731 22.9227 15.5009 22.928 15.43 22.918L2.85802 21.123C2.61964 21.0891 2.40152 20.9702 2.24371 20.7884C2.08591 20.6065 1.99903 20.3738 1.99902 20.133V3.867C1.99903 3.62621 2.08591 3.39351 2.24371 3.21164C2.40152 3.02978 2.61964 2.91095 2.85802 2.877H2.85902ZM4.00002 4.735V19.265L14 20.694V3.306L4.00002 4.735ZM17 19H20V5H17V3H21C21.2652 3 21.5196 3.10536 21.7071 3.29289C21.8947 3.48043 22 3.73478 22 4V20C22 20.2652 21.8947 20.5196 21.7071 20.7071C21.5196 20.8946 21.2652 21 21 21H17V19ZM10.2 12L13 16H10.6L9.00002 13.714L7.40002 16H5.00002L7.80002 12L5.00002 8H7.40002L9.00002 10.286L10.6 8H13L10.2 12Z"
+										fill="#2F80ED" />
+								</svg>
+								Прайс лист
+								<div class="arrow-li">
+									<svg width="15" height="11" viewBox="0 0 15 11" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M11.8192 2.57346L12.9207 1L11 1L4 1L2.07934 1L3.18077 2.57346L6.68077 7.57346L7.5 8.74379L8.31923 7.57346L11.8192 2.57346Z"
+											fill="#2F80ED" stroke="white" stroke-width="2" />
+									</svg>
+								</div>
+								<div class="dropdown">
+									<div class="dropdown-title">
+										Название группы прайсов
+									</div>
+									<ul class="dropdown-list">
+										<li>
+											<a href="" target="_blank">
+												Прайс 1
+											</a>
+										</li>
+										<li>
+											<a href="" target="_blank">
+												Прайс 2
+											</a>
+										</li>
+										<li>
+											<a href="" target="_blank">
+												Прайс 3
+											</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M19.937 8.68C19.926 8.648 19.917 8.617 19.904 8.586C19.855 8.48 19.794 8.379 19.708 8.293L13.708 2.293C13.622 2.207 13.521 2.146 13.415 2.097C13.385 2.083 13.353 2.075 13.321 2.064C13.237 2.036 13.151 2.018 13.062 2.013C13.04 2.011 13.021 2 13 2H6C4.897 2 4 2.897 4 4V20C4 21.103 4.897 22 6 22H18C19.103 22 20 21.103 20 20V9C20 8.979 19.989 8.96 19.987 8.938C19.982 8.85 19.965 8.764 19.937 8.68ZM16.586 8H14V5.414L16.586 8ZM6 20V4H12V9C12 9.553 12.447 10 13 10H18L18.002 20H6Z"
+										fill="#2F80ED" />
+								</svg>
+								Файлы
+								<div class="arrow-li">
+									<svg width="15" height="11" viewBox="0 0 15 11" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M11.8192 2.57346L12.9207 1L11 1L4 1L2.07934 1L3.18077 2.57346L6.68077 7.57346L7.5 8.74379L8.31923 7.57346L11.8192 2.57346Z"
+											fill="#2F80ED" stroke="white" stroke-width="2" />
+									</svg>
+								</div>
+								<div class="dropdown">
+									<div class="dropdown-title">
+										Название первой программы
+									</div>
+									<ul class="dropdown-list">
+										<li>
+											<a href="" target="_blank">
+												Демо версия
+											</a>
+										</li>
+										<li>
+											<a href="" target="_blank">
+												Вторая версия
+											</a>
+										</li>
+										<li>
+											<a href="" target="_blank">
+												Третья
+											</a>
+										</li>
+										<li>
+											<a href="" target="_blank">
+												Инструкция по использованию
+											</a>
+										</li>
+									</ul>
+									<div class="dropdown-title">
+										Название первой программы
+									</div>
+									<ul class="dropdown-list">
+										<li>
+											<a href="" target="_blank">
+												Демо версия
+											</a>
+										</li>
+										<li>
+											<a href="" target="_blank">
+												Вторая версия
+											</a>
+										</li>
+										<li>
+											<a href="" target="_blank">
+												Третья
+											</a>
+										</li>
+										<li>
+											<a href="" target="_blank">
+												Инструкция по использованию
+											</a>
+										</li>
+									</ul>
+									<div class="dropdown-title empty">
+
+									</div>
+									<ul class="dropdown-list">
+										<li>
+											<a href="" target="_blank">
+												TeamViewer
+											</a>
+										</li>
+										<li>
+											<a href="" target="_blank">
+												Документация
+											</a>
+										</li>
+										<li>
+											<a href="" target="_blank">
+												Драйверы для работы ключа
+											</a>
+										</li>
+										<li>
+											<a href="" target="_blank">
+												Бланки/Документы
+											</a>
+										</li>
+										<li>
+											<a href="" target="_blank">
+												Файлы для обновления ПО и БД
+											</a>
+										</li>
+									</ul>
+								</div>
+
+							</li>
+							<li>
+								<div class="open-modal second-btn" data-modal="demoModal">
+									ДЕМО
+								</div>
+							</li>
+							<li>
+								<div class="open-modal main-btn" data-modal="orderModal">
+									<svg width="16" height="19" viewBox="0 0 16 19" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd"
+											d="M3.33333 1.72223L1 4.83334V15.7222C1 16.5813 1.69645 17.2778 2.55556 17.2778H13.4444C14.3036 17.2778 15 16.5813 15 15.7222V4.83334L12.6667 1.72223H3.33333Z"
+											fill="white" stroke="white" stroke-width="2" stroke-linecap="round"
+											stroke-linejoin="round" />
+										<path d="M2.55566 4.83335H13.4446" stroke="#2F80ED" stroke-width="2"
+											stroke-linecap="round" stroke-linejoin="round" />
+										<path
+											d="M11.1111 7.94446C11.1111 9.66268 9.71825 11.0556 8.00003 11.0556C6.28181 11.0556 4.88892 9.66268 4.88892 7.94446"
+											stroke="#2F80ED" stroke-width="2" stroke-linecap="round"
+											stroke-linejoin="round" />
+									</svg>
+
+									ЗАКАЗАТЬ
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="hero">
+		<div class="section-wrapper">
+			<div class="section-header">
+				<div class="tab-nav">
+					<div class="tab-nav__item active">
+						BELSMETA
+					</div>
+					<div class="tab-nav__item">
+						SOLIDDATA SXW
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="hero-wrapper tab-wrapper">
+			<div class="hero-item tab-panel active">
+				<div class="hero-bg">
+					<img src="img/content/hero.png" alt="">
+				</div>
+				<div class="section-wrapper">
+					<div class="hero-content">
+						<div class="hero-subtitle h4">
+							новый программный комплекс
+						</div>
+						<div class="hero-title h1">
+							по расчёту смет
+							и процентовок
+						</div>
+						<ul class="hero-list">
+							<li>
+								Электронный документооборот
+							</li>
+							<li>
+								Сметы и планирование
+							</li>
+							<li>
+								Базы расценок по регионам
+							</li>
+							<li>
+								Контроль закупок и работ
+							</li>
+						</ul>
+						<div class="hero-buttons">
+							<div class="main-btn open-modal" data-modal="demoModal">
+								Демо версии
+							</div>
+							<div class="second-btn open-modal" data-modal="orderModal">
+								<svg width="20" height="23" viewBox="0 0 20 23" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd"
+										d="M4 1.5L1 5.5V19.5C1 20.6046 1.89543 21.5 3 21.5H17C18.1046 21.5 19 20.6046 19 19.5V5.5L16 1.5H4Z"
+										stroke="#2F80ED" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+									<path d="M1 5.5H19" stroke="#2F80ED" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+									<path d="M14 9.5C14 11.7091 12.2091 13.5 10 13.5C7.79086 13.5 6 11.7091 6 9.5"
+										stroke="#2F80ED" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+								</svg>
+								Заказать продукт
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="hero-item tab-panel">
+				<div class="hero-bg">
+					<img src="img/content/hero.png" alt="">
+				</div>
+				<div class="section-wrapper">
+					<div class="hero-subtitle h4">
+						новый программный комплекс тест
+					</div>
+					<div class="hero-title h1">
+						по расчёту смет
+						и процентовок
+					</div>
+					<ul class="hero-list">
+						<li>
+							Электронный документооборот
+						</li>
+						<li>
+							Сметы и планирование
+						</li>
+						<li>
+							Базы расценок по регионам
+						</li>
+						<li>
+							Контроль закупок и работ
+						</li>
+					</ul>
+					<div class="hero-buttons">
+						<div class="main-btn open-modal" data-modal="demoModal">
+							Демо версии
+						</div>
+						<div class="second-btn open-modal" data-modal="orderModal">
+							<svg width="20" height="23" viewBox="0 0 20 23" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M4 1.5L1 5.5V19.5C1 20.6046 1.89543 21.5 3 21.5H17C18.1046 21.5 19 20.6046 19 19.5V5.5L16 1.5H4Z"
+									stroke="#2F80ED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+								<path d="M1 5.5H19" stroke="#2F80ED" stroke-width="2" stroke-linecap="round"
+									stroke-linejoin="round" />
+								<path d="M14 9.5C14 11.7091 12.2091 13.5 10 13.5C7.79086 13.5 6 11.7091 6 9.5"
+									stroke="#2F80ED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+							Заказать продукт
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="requirements">
+		<div class="section-wrapper">
+			<div class="section-header">
+				<div class="tab-nav">
+					<div class="tab-nav__item active">
+						BELSMETA
+					</div>
+					<div class="tab-nav__item">
+						SOLIDDATA SXW
+					</div>
+				</div>
+				<div class="section-compare">
+					<a href="">
+						<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M10.3047 18H6.30469V16H10.3047V18ZM10.3047 14H6.30469V12H10.3047V14ZM10.3047 1V2H6.30469C5.19469 2 4.30469 2.89 4.30469 4V20C4.30469 20.5304 4.5154 21.0391 4.89047 21.4142C5.26555 21.7893 5.77425 22 6.30469 22H10.3047V23H12.3047V1H10.3047ZM20.3047 8V20C20.3047 21.11 19.4147 22 18.3047 22H14.3047V20H18.3047V11H14.3047V9H18.8047L14.3047 4.5V2L20.3047 8ZM16.3047 14H14.3047V12H16.3047V14ZM16.3047 18H14.3047V16H16.3047V18Z"
+								fill="#2F80ED" />
+						</svg>
+						Сравнить Программы
+					</a>
+				</div>
+			</div>
+			<div class="requirements-wrapper tab-wrapper">
+				<div class="requirements-item tab-panel active">
+					<div class="requirements-item__col">
+						<div class="requirements-subtitle h4">
+							Работает
+						</div>
+						<div class="requirements-title h2">
+							всегда и везде
+						</div>
+						<div class="requirements-subtitle h4">
+							на любом ноутбуке или стареньком компьютере
+						</div>
+						<div class="requirements-icons">
+							<div class="requirements-icon">
+								<div class="requirements-icon__icon">
+									<img src="img/content/Group 138.png" alt="">
+								</div>
+								<div class="requirements-icon__title">
+									Простота и
+									удобство
+								</div>
+							</div>
+							<div class="requirements-icon">
+								<div class="requirements-icon__icon">
+									<img src="img/content/Group 139.png" alt="">
+								</div>
+								<div class="requirements-icon__title">
+									Поддержка баз НРР и PCH
+								</div>
+							</div>
+							<div class="requirements-icon">
+								<div class="requirements-icon__icon">
+									<img src="img/content/Group 140.png" alt="">
+								</div>
+								<div class="requirements-icon__title">
+									Автоматическое обновление
+								</div>
+							</div>
+							<div class="requirements-icon">
+								<div class="requirements-icon__icon">
+									<img src="img/content/Group 141.png" alt="">
+								</div>
+								<div class="requirements-icon__title">
+									Поддержка форматов СIC И АРПС 1.10
+								</div>
+							</div>
+							<div class="requirements-icon">
+								<div class="requirements-icon__icon">
+									<img src="img/content/Group 137.png" alt="">
+								</div>
+								<div class="requirements-icon__title">
+									Мобильность благодаря USB ключу
+								</div>
+							</div>
+							<div class="requirements-icon">
+								<div class="requirements-icon__icon">
+									<img src="img/content/Group 143.png" alt="">
+								</div>
+								<div class="requirements-icon__title">
+									Огроминое сообщество
+									инженеров
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="requirements-item__col">
+						<div class="requirements-item__image">
+							<img src="img/content/Group 79.png" alt="">
+						</div>
+						<div class="requirements-subtitle h4">
+							Системные требования
+						</div>
+						<ul class="requirements-list">
+							<li>
+								Тактовая частота процессора - от 1000 МГц
+							</li>
+							<li>
+								Оперативная память - от 1 Гб
+							</li>
+							<li>
+								3 Гб свободного пространства на диске
+								(желателен SSD - диск)
+							</li>
+							<li>
+								Дисплей, поддерживающий разрешение
+								не ниже 1024х768
+							</li>
+							<li>
+								Windows (32 или 64 bit): XP, Vista, 7, 8, 10, Server
+							</li>
+							<li>
+								Наличие Microsoft Office 2003, 2007, 2010,
+								2013, 2016 (кроме Starter'a)
+							</li>
+							<li>
+								Наличие Acrobat Reader
+							</li>
+							<li>
+								Желательно наличие WinRAR
+							</li>
+							<li>
+								Желательно наличие подключения к Интернету
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="requirements-item tab-panel ">
+					<div class="requirements-item__col">
+						<div class="requirements-subtitle h4">
+							Работает test
+						</div>
+						<div class="requirements-title h2">
+							всегда и везде
+						</div>
+						<div class="requirements-subtitle h4">
+							на любом ноутбуке или стареньком компьютере
+						</div>
+						<div class="requirements-icons">
+							<div class="requirements-icon">
+								<div class="requirements-icon__icon">
+									<img src="img/content/Group 138.png" alt="">
+								</div>
+								<div class="requirements-icon__title">
+									Простота и
+									удобство
+								</div>
+							</div>
+							<div class="requirements-icon">
+								<div class="requirements-icon__icon">
+									<img src="img/content/Group 139.png" alt="">
+								</div>
+								<div class="requirements-icon__title">
+									Поддержка баз НРР и PCH
+								</div>
+							</div>
+							<div class="requirements-icon">
+								<div class="requirements-icon__icon">
+									<img src="img/content/Group 140.png" alt="">
+								</div>
+								<div class="requirements-icon__title">
+									Автоматическое обновление
+								</div>
+							</div>
+							<div class="requirements-icon">
+								<div class="requirements-icon__icon">
+									<img src="img/content/Group 141.png" alt="">
+								</div>
+								<div class="requirements-icon__title">
+									Поддержка форматов СIC И АРПС 1.10
+								</div>
+							</div>
+							<div class="requirements-icon">
+								<div class="requirements-icon__icon">
+									<img src="img/content/Group 137.png" alt="">
+								</div>
+								<div class="requirements-icon__title">
+									Мобильность благодаря USB ключу
+								</div>
+							</div>
+							<div class="requirements-icon">
+								<div class="requirements-icon__icon">
+									<img src="img/content/Group 143.png" alt="">
+								</div>
+								<div class="requirements-icon__title">
+									Огроминое сообщество
+									инженеров
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="requirements-item__col">
+						<div class="requirements-item__image">
+							<img src="img/content/Group 79.png" alt="">
+						</div>
+						<div class="requirements-subtitle h4">
+							Системные требования
+						</div>
+						<ul class="requirements-list">
+							<li>
+								Тактовая частота процессора - от 1000 МГц
+							</li>
+							<li>
+								Оперативная память - от 1 Гб
+							</li>
+							<li>
+								3 Гб свободного пространства на диске
+								(желателен SSD - диск)
+							</li>
+							<li>
+								Дисплей, поддерживающий разрешение
+								не ниже 1024х768
+							</li>
+							<li>
+								Windows (32 или 64 bit): XP, Vista, 7, 8, 10, Server
+							</li>
+							<li>
+								Наличие Microsoft Office 2003, 2007, 2010,
+								2013, 2016 (кроме Starter'a)
+							</li>
+							<li>
+								Наличие Acrobat Reader
+							</li>
+							<li>
+								Желательно наличие WinRAR
+							</li>
+							<li>
+								Желательно наличие подключения к Интернету
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="cta">
+		<div class="section-wrapper">
+			<div class="cta-outer">
+				<div class="cta-bg">
+					<img src="img/content/Group136.png" alt="">
+				</div>
+				<div class="cta-label">
+					BELSMETA
+				</div>
+				<div class="cta-wrapper">
+					<div class="cta-title h3">
+						Программный комплекс
+						по расчёту смет и процентовок
+					</div>
+					<div class="cta-buttons">
+						<div class="open-modal main-btn" data-modal="demoModal">
+							ДЕМО Версия
+						</div>
+						<div class="open-modal second-btn" data-modal="orderModal">
+							ЗАКАЗАТЬ продукт
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="price">
+		<div class="section-wrapper">
+			<div class="section-header">
+				<div class="tab-nav">
+					<div class="tab-nav__item active">
+						BELSMETA
+					</div>
+					<div class="tab-nav__item">
+						SOLIDDATA SXW
+					</div>
+				</div>
+				<div class="section-compare">
+					<a href="">
+						<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M10.3047 18H6.30469V16H10.3047V18ZM10.3047 14H6.30469V12H10.3047V14ZM10.3047 1V2H6.30469C5.19469 2 4.30469 2.89 4.30469 4V20C4.30469 20.5304 4.5154 21.0391 4.89047 21.4142C5.26555 21.7893 5.77425 22 6.30469 22H10.3047V23H12.3047V1H10.3047ZM20.3047 8V20C20.3047 21.11 19.4147 22 18.3047 22H14.3047V20H18.3047V11H14.3047V9H18.8047L14.3047 4.5V2L20.3047 8ZM16.3047 14H14.3047V12H16.3047V14ZM16.3047 18H14.3047V16H16.3047V18Z"
+								fill="#2F80ED" />
+						</svg>
+						Сравнить тарифы
+					</a>
+				</div>
+			</div>
+			<div class="price-wrapper tab-wrapper">
+				<div class="price-panel tab-panel active">
+					<div class="price-item">
+						<div class="price__image">
+							<img src="img/content/pc 1.png" alt="">
+						</div>
+						<div class="price-label">
+							BELSMETA.LOCAL
+						</div>
+						<div class="price-title">
+							Локальная
+							версия
+						</div>
+						<div class="price-description">
+							Choosing the right mattress is not so simple.
+							We all sleep in a different way and we all
+							want our mattress to adapt perfectly to
+							our body.
+						</div>
+						<div class="price-value">
+							от 290 руб.
+							<span>без НДС</span>
+						</div>
+						<div class="price-button">
+							<div class="main-btn open-modal" data-modal="orderModal">
+								<svg width="20" height="22" viewBox="0 0 20 22" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd"
+										d="M4 1L1 5V19C1 20.1046 1.89543 21 3 21H17C18.1046 21 19 20.1046 19 19V5L16 1H4Z"
+										fill="white" stroke="white" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+									<path d="M3 5H17" stroke="#2F80ED" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+									<path d="M14 9C14 11.2091 12.2091 13 10 13C7.79086 13 6 11.2091 6 9"
+										stroke="#2F80ED" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+								</svg>
+								Заказать
+							</div>
+						</div>
+					</div>
+					<div class="price-item">
+						<div class="price__image">
+							<img src="img/content/3D-Internet-256x256 2.png" alt="">
+						</div>
+						<div class="price-label">
+							BELSMETA.CLOUD
+						</div>
+						<div class="price-title">
+							Сетевая
+							версия
+						</div>
+						<div class="price-description">
+							Choosing the right mattress is not so simple.
+							We all sleep in a different way and we all
+							want our mattress to adapt perfectly to
+							our body.
+						</div>
+						<div class="price-value">
+							от 390 руб.
+							<span>без НДС</span>
+						</div>
+						<div class="price-button">
+							<div class="main-btn open-modal" data-modal="orderModal">
+								<svg width="20" height="22" viewBox="0 0 20 22" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd"
+										d="M4 1L1 5V19C1 20.1046 1.89543 21 3 21H17C18.1046 21 19 20.1046 19 19V5L16 1H4Z"
+										fill="white" stroke="white" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+									<path d="M3 5H17" stroke="#2F80ED" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+									<path d="M14 9C14 11.2091 12.2091 13 10 13C7.79086 13 6 11.2091 6 9"
+										stroke="#2F80ED" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+								</svg>
+								Заказать
+							</div>
+						</div>
+					</div>
+					<div class="price-item">
+						<div class="price__image">
+							<img src="img/content/unnamed-(1)_2342 1.png" alt="">
+						</div>
+						<div class="price-label">
+							BELSMETA-UPDATES
+						</div>
+						<div class="price-title">
+							Подписка на
+							обновления
+						</div>
+						<div class="price-description">
+							Choosing the right mattress is not so simple.
+							We all sleep in a different way and we all
+							want our mattress to adapt perfectly to
+							our body.
+						</div>
+						<div class="price-value">
+							от 135 руб.
+							<span>в квартал без ндс</span>
+						</div>
+						<div class="price-button">
+							<div class="main-btn open-modal" data-modal="orderModal">
+								<svg width="20" height="22" viewBox="0 0 20 22" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd"
+										d="M4 1L1 5V19C1 20.1046 1.89543 21 3 21H17C18.1046 21 19 20.1046 19 19V5L16 1H4Z"
+										fill="white" stroke="white" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+									<path d="M3 5H17" stroke="#2F80ED" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+									<path d="M14 9C14 11.2091 12.2091 13 10 13C7.79086 13 6 11.2091 6 9"
+										stroke="#2F80ED" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+								</svg>
+								Заказать
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="price-panel tab-panel ">
+					<div class="price-item">
+						<div class="price__image">
+							<img src="img/content/pc 1.png" alt="">
+						</div>
+						<div class="price-label">
+							BELSMETA.LOCAL
+						</div>
+						<div class="price-title">
+							Локальная
+							версия
+						</div>
+						<div class="price-description">
+							Choosing the right mattress is not so simple.
+							We all sleep in a different way and we all
+							want our mattress to adapt perfectly to
+							our body.
+						</div>
+						<div class="price-value">
+							от 290 руб.
+							<span>без НДС</span>
+						</div>
+						<div class="price-button">
+							<div class="main-btn open-modal" data-modal="orderModal">
+								<svg width="20" height="22" viewBox="0 0 20 22" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd"
+										d="M4 1L1 5V19C1 20.1046 1.89543 21 3 21H17C18.1046 21 19 20.1046 19 19V5L16 1H4Z"
+										fill="white" stroke="white" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+									<path d="M3 5H17" stroke="#2F80ED" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+									<path d="M14 9C14 11.2091 12.2091 13 10 13C7.79086 13 6 11.2091 6 9"
+										stroke="#2F80ED" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+								</svg>
+								Заказать
+							</div>
+						</div>
+					</div>
+					<div class="price-item">
+						<div class="price__image">
+							<img src="img/content/3D-Internet-256x256 2.png" alt="">
+						</div>
+						<div class="price-label">
+							BELSMETA.CLOUD
+						</div>
+						<div class="price-title">
+							Сетевая
+							версия
+						</div>
+						<div class="price-description">
+							Choosing the right mattress is not so simple.
+							We all sleep in a different way and we all
+							want our mattress to adapt perfectly to
+							our body.
+						</div>
+						<div class="price-value">
+							от 390 руб.
+							<span>без НДС</span>
+						</div>
+						<div class="price-button">
+							<div class="main-btn open-modal" data-modal="orderModal">
+								<svg width="20" height="22" viewBox="0 0 20 22" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd"
+										d="M4 1L1 5V19C1 20.1046 1.89543 21 3 21H17C18.1046 21 19 20.1046 19 19V5L16 1H4Z"
+										fill="white" stroke="white" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+									<path d="M3 5H17" stroke="#2F80ED" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+									<path d="M14 9C14 11.2091 12.2091 13 10 13C7.79086 13 6 11.2091 6 9"
+										stroke="#2F80ED" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+								</svg>
+								Заказать
+							</div>
+						</div>
+					</div>
+					<div class="price-item">
+						<div class="price__image">
+							<img src="img/content/unnamed-(1)_2342 1.png" alt="">
+						</div>
+						<div class="price-label">
+							BELSMETA-UPDATES
+						</div>
+						<div class="price-title">
+							Подписка на
+							обновления
+						</div>
+						<div class="price-description">
+							Choosing the right mattress is not so simple.
+							We all sleep in a different way and we all
+							want our mattress to adapt perfectly to
+							our body.
+						</div>
+						<div class="price-value">
+							от 135 руб.
+							<span>в квартал без ндс</span>
+						</div>
+						<div class="price-button">
+							<div class="main-btn open-modal" data-modal="orderModal">
+								<svg width="20" height="22" viewBox="0 0 20 22" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd"
+										d="M4 1L1 5V19C1 20.1046 1.89543 21 3 21H17C18.1046 21 19 20.1046 19 19V5L16 1H4Z"
+										fill="white" stroke="white" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+									<path d="M3 5H17" stroke="#2F80ED" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+									<path d="M14 9C14 11.2091 12.2091 13 10 13C7.79086 13 6 11.2091 6 9"
+										stroke="#2F80ED" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+								</svg>
+								Заказать
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="news">
+		<div class="section-wrapper">
+			<div class="section-header">
+				<div class="h2">
+					Новости
+				</div>
+			</div>
+			<div class="news-wrapper">
+				<a href="news.html" class="news-item">
+					<div class="news-title">
+						Обновления для версии 8.2.28.0
+					</div>
+					<div class="news-description">
+						1. Обновлены значения прогнозных индексов на 2020-2022гг. на основании Письма МАиС №
+						04-3-03/5416 от 30.04.2020г.
+						<br>
+						<br>
+						2. Обновлены нормативные базы материалов для баз НРР 2017 и НРР 2012 на основании данных РНТЦ...
+					</div>
+					<div class="news-date">
+						30.05.2020
+					</div>
+				</a>
+				<a href="news.html" class="news-item">
+					<div class="news-title">
+						Обновления для версии 8.2.28.0
+					</div>
+					<div class="news-description">
+						Цены на 1-ое май 2020 года для баз НРР 2012 и НРР 2017 доступны для загрузки через программу или
+						сайт.
+					</div>
+					<div class="news-date">
+						30.05.2020
+					</div>
+				</a>
+				<a href="news.html" class="news-item">
+					<div class="news-title">
+						Обновления для версии 8.2.28.0
+					</div>
+					<div class="news-description">
+						1. Обновлены значения прогнозных индексов на 2020-2022гг. на основании Письма МАиС №
+						04-3-03/5416 от 30.04.2020г.
+						<br>
+						<br>
+						2. Обновлены нормативные базы материалов для баз НРР 2017 и НРР 2012 на основании данных РНТЦ...
+					</div>
+					<div class="news-date">
+						30.05.2020
+					</div>
+				</a>
+				<a href="news.html" class="news-item">
+					<div class="news-title">
+						Обновления для версии 8.2.28.0
+					</div>
+					<div class="news-description">
+						1. Обновлены значения прогнозных индексов на 2020-2022гг. на основании Письма МАиС №
+						04-3-03/5416 от 30.04.2020г.
+						<br>
+						<br>
+						2. Обновлены нормативные базы материалов для баз НРР 2017 и НРР 2012 на основании данных РНТЦ...
+					</div>
+					<div class="news-date">
+						30.05.2020
+					</div>
+				</a>
+				<a href="news.html" class="news-item">
+					<div class="news-title">
+						Обновления для версии 8.2.28.0
+					</div>
+					<div class="news-description">
+						Цены на 1-ое май 2020 года для баз НРР 2012 и НРР 2017 доступны для загрузки через программу или
+						сайт.
+					</div>
+					<div class="news-date">
+						30.05.2020
+					</div>
+				</a>
+				<a href="news.html" class="news-item">
+					<div class="news-title">
+						Обновления для версии 8.2.28.0
+					</div>
+					<div class="news-description">
+						1. Обновлены значения прогнозных индексов на 2020-2022гг. на основании Письма МАиС №
+						04-3-03/5416 от 30.04.2020г.
+						<br>
+						<br>
+						2. Обновлены нормативные базы материалов для баз НРР 2017 и НРР 2012 на основании данных РНТЦ...
+					</div>
+					<div class="news-date">
+						30.05.2020
+					</div>
+				</a>
+				<a href="news.html" class="news-item">
+					<div class="news-title">
+						Обновления для версии 8.2.28.0
+					</div>
+					<div class="news-description">
+						1. Обновлены значения прогнозных индексов на 2020-2022гг. на основании Письма МАиС №
+						04-3-03/5416 от 30.04.2020г.
+						<br>
+						<br>
+						2. Обновлены нормативные базы материалов для баз НРР 2017 и НРР 2012 на основании данных РНТЦ...
+					</div>
+					<div class="news-date">
+						30.05.2020
+					</div>
+				</a>
+				<a href="news.html" class="news-item">
+					<div class="news-title">
+						Обновления для версии 8.2.28.0
+					</div>
+					<div class="news-description">
+						Цены на 1-ое май 2020 года для баз НРР 2012 и НРР 2017 доступны для загрузки через программу или
+						сайт.
+					</div>
+					<div class="news-date">
+						30.05.2020
+					</div>
+				</a>
+				<a href="news.html" class="news-item">
+					<div class="news-title">
+						Обновления для версии 8.2.28.0
+					</div>
+					<div class="news-description">
+						1. Обновлены значения прогнозных индексов на 2020-2022гг. на основании Письма МАиС №
+						04-3-03/5416 от 30.04.2020г.
+						<br>
+						<br>
+						2. Обновлены нормативные базы материалов для баз НРР 2017 и НРР 2012 на основании данных РНТЦ...
+					</div>
+					<div class="news-date">
+						30.05.2020
+					</div>
+				</a>
+				<a href="news.html" class="news-item">
+					<div class="news-title">
+						Обновления для версии 8.2.28.0
+					</div>
+					<div class="news-description">
+						1. Обновлены значения прогнозных индексов на 2020-2022гг. на основании Письма МАиС №
+						04-3-03/5416 от 30.04.2020г.
+						<br>
+						<br>
+						2. Обновлены нормативные базы материалов для баз НРР 2017 и НРР 2012 на основании данных РНТЦ...
+					</div>
+					<div class="news-date">
+						30.05.2020
+					</div>
+				</a>
+				<a href="news.html" class="news-item">
+					<div class="news-title">
+						Обновления для версии 8.2.28.0
+					</div>
+					<div class="news-description">
+						Цены на 1-ое май 2020 года для баз НРР 2012 и НРР 2017 доступны для загрузки через программу или
+						сайт.
+					</div>
+					<div class="news-date">
+						30.05.2020
+					</div>
+				</a>
+				<a href="news.html" class="news-item">
+					<div class="news-title">
+						Обновления для версии 8.2.28.0
+					</div>
+					<div class="news-description">
+						1. Обновлены значения прогнозных индексов на 2020-2022гг. на основании Письма МАиС №
+						04-3-03/5416 от 30.04.2020г.
+						<br>
+						<br>
+						2. Обновлены нормативные базы материалов для баз НРР 2017 и НРР 2012 на основании данных РНТЦ...
+					</div>
+					<div class="news-date">
+						30.05.2020
+					</div>
+				</a>
+				<a href="news.html" class="news-item">
+					<div class="news-title">
+						Обновления для версии 8.2.28.0
+					</div>
+					<div class="news-description">
+						1. Обновлены значения прогнозных индексов на 2020-2022гг. на основании Письма МАиС №
+						04-3-03/5416 от 30.04.2020г.
+						<br>
+						<br>
+						2. Обновлены нормативные базы материалов для баз НРР 2017 и НРР 2012 на основании данных РНТЦ...
+					</div>
+					<div class="news-date">
+						30.05.2020
+					</div>
+				</a>
+				<a href="news.html" class="news-item">
+					<div class="news-title">
+						Обновления для версии 8.2.28.0
+					</div>
+					<div class="news-description">
+						Цены на 1-ое май 2020 года для баз НРР 2012 и НРР 2017 доступны для загрузки через программу или
+						сайт.
+					</div>
+					<div class="news-date">
+						30.05.2020
+					</div>
+				</a>
+				<a href="news.html" class="news-item">
+					<div class="news-title">
+						Обновления для версии 8.2.28.0
+					</div>
+					<div class="news-description">
+						1. Обновлены значения прогнозных индексов на 2020-2022гг. на основании Письма МАиС №
+						04-3-03/5416 от 30.04.2020г.
+						<br>
+						<br>
+						2. Обновлены нормативные базы материалов для баз НРР 2017 и НРР 2012 на основании данных РНТЦ...
+					</div>
+					<div class="news-date">
+						30.05.2020
+					</div>
+				</a>
+			</div>
+			<div class="section-bottom">
+				<a href="news.html" class="section-link">
+					ВСЕ НОВОСТИ
+				</a>
+				<div class="slider-nav">
+					<div class="slider-nav__prev">
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M12.7069 17.293L8.41394 13H17.9999V11H8.41394L12.7069 6.70697L11.2929 5.29297L4.58594 12L11.2929 18.707L12.7069 17.293Z"
+								fill="#2F80ED" />
+						</svg>
+					</div>
+					<div class="slider-nav__count">
+						<span>01</span>/<span>06</span>
+					</div>
+					<div class="slider-nav__next">
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M9.879 17.293L14.172 13H4.586V11H14.172L9.879 6.70697L11.293 5.29297L18 12L11.293 18.707L9.879 17.293Z"
+								fill="#2F80ED" />
+						</svg>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="learning">
+		<div class="section-wrapper">
+			<div class="section-header">
+				<div class="h2">
+					Обучение
+				</div>
+				<div class="section-link">
+					Для записи на курс пришлите заявку на <a href="meilto:seminar@belsmeta.by"> seminar@belsmeta.by </a>
+					или на факс (017) 257-15-90
+				</div>
+
+			</div>
+			<div class="learning-wrapper">
+				<div class="price-item">
+					<div class="price-title">
+						Курс <br>
+						“Cметчик”
+					</div>
+					<div class="price-description">
+						<div class="price-description__group">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<circle cx="12" cy="12" r="9" stroke="#2C2E3F" stroke-width="2" />
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M15.61 8.33984C16.68 8.33984 17.54 9.19984 17.54 10.2698C17.54 11.3398 16.68 12.1998 15.61 12.1998C14.54 12.1998 13.68 11.3398 13.68 10.2698C13.67 9.19984 14.54 8.33984 15.61 8.33984Z"
+									fill="#2C2E3F" />
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M9.61 6.75977C10.91 6.75977 11.97 7.81977 11.97 9.11977C11.97 10.4198 10.91 11.4798 9.61 11.4798C8.31 11.4798 7.25 10.4198 7.25 9.11977C7.25 7.80977 8.3 6.75977 9.61 6.75977Z"
+									fill="#2C2E3F" />
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M9.60997 15.8902V19.6402C7.20997 18.8902 5.30997 17.0402 4.46997 14.6802C5.51997 13.5602 8.13997 12.9902 9.60997 12.9902C10.14 12.9902 10.81 13.0702 11.51 13.2102C9.86997 14.0802 9.60997 15.2302 9.60997 15.8902Z"
+									fill="#2C2E3F" />
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M12 19.9998C11.73 19.9998 11.47 19.9898 11.21 19.9598V15.8898C11.21 14.4698 14.15 13.7598 15.61 13.7598C16.68 13.7598 18.53 14.1498 19.45 14.9098C18.28 17.8798 15.39 19.9998 12 19.9998Z"
+									fill="#2C2E3F" />
+							</svg>
+							Группа 10-13 человек
+						</div>
+						<div class="price-description__group">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M11.99 2C6.47 2 2 6.48 2 12C2 17.52 6.47 22 11.99 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 11.99 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20ZM11.78 7H11.72C11.32 7 11 7.32 11 7.72V12.44C11 12.79 11.18 13.12 11.49 13.3L15.64 15.79C15.98 15.99 16.42 15.89 16.62 15.55C16.83 15.21 16.72 14.76 16.37 14.56L12.5 12.26V7.72C12.5 7.32 12.18 7 11.78 7Z"
+									fill="#2C2E3F" />
+							</svg>
+							Продолжительность 13 часов
+						</div>
+						<ul class="price-description__list">
+							<li>
+								<b>Вечерняя группа</b>
+								<span>ВТ</span><span>ЧТ</span>18:00 – 20:10
+							</li>
+							<li>
+								<b>Группа выходного дня </b>
+								<span>СБ</span><span>ВСК</span>12:00 – 14:10
+							</li>
+						</ul>
+					</div>
+					<div class="price-value">
+						<span>
+							Стоимость курса
+						</span>
+						270 руб.
+					</div>
+					<div class="price-button">
+						<div class="main-btn open-modal" data-modal="orderModal">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M19 3H14.82C14.4 1.84 13.3 1 12 1C10.7 1 9.6 1.84 9.18 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3ZM12 3C12.55 3 13 3.45 13 4C13 4.55 12.55 5 12 5C11.45 5 11 4.55 11 4C11 3.45 11.45 3 12 3ZM12 7C13.66 7 15 8.34 15 10C15 11.66 13.66 13 12 13C10.34 13 9 11.66 9 10C9 8.34 10.34 7 12 7ZM18 19H6V17.6C6 15.6 10 14.5 12 14.5C14 14.5 18 15.6 18 17.6V19Z"
+									fill="white" />
+							</svg>
+							Подать заявку
+						</div>
+					</div>
+				</div>
+				<div class="price-item">
+					<div class="price-title">
+						Курс <br>
+						“Контратная цена”
+					</div>
+					<div class="price-description">
+						<div class="price-description__group">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<circle cx="12" cy="12" r="9" stroke="#2C2E3F" stroke-width="2" />
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M15.61 8.33984C16.68 8.33984 17.54 9.19984 17.54 10.2698C17.54 11.3398 16.68 12.1998 15.61 12.1998C14.54 12.1998 13.68 11.3398 13.68 10.2698C13.67 9.19984 14.54 8.33984 15.61 8.33984Z"
+									fill="#2C2E3F" />
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M9.61 6.75977C10.91 6.75977 11.97 7.81977 11.97 9.11977C11.97 10.4198 10.91 11.4798 9.61 11.4798C8.31 11.4798 7.25 10.4198 7.25 9.11977C7.25 7.80977 8.3 6.75977 9.61 6.75977Z"
+									fill="#2C2E3F" />
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M9.60997 15.8902V19.6402C7.20997 18.8902 5.30997 17.0402 4.46997 14.6802C5.51997 13.5602 8.13997 12.9902 9.60997 12.9902C10.14 12.9902 10.81 13.0702 11.51 13.2102C9.86997 14.0802 9.60997 15.2302 9.60997 15.8902Z"
+									fill="#2C2E3F" />
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M12 19.9998C11.73 19.9998 11.47 19.9898 11.21 19.9598V15.8898C11.21 14.4698 14.15 13.7598 15.61 13.7598C16.68 13.7598 18.53 14.1498 19.45 14.9098C18.28 17.8798 15.39 19.9998 12 19.9998Z"
+									fill="#2C2E3F" />
+							</svg>
+							Группа 10-13 человек
+						</div>
+						<div class="price-description__group">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M11.99 2C6.47 2 2 6.48 2 12C2 17.52 6.47 22 11.99 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 11.99 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20ZM11.78 7H11.72C11.32 7 11 7.32 11 7.72V12.44C11 12.79 11.18 13.12 11.49 13.3L15.64 15.79C15.98 15.99 16.42 15.89 16.62 15.55C16.83 15.21 16.72 14.76 16.37 14.56L12.5 12.26V7.72C12.5 7.32 12.18 7 11.78 7Z"
+									fill="#2C2E3F" />
+							</svg>
+							Продолжительность 13 часов
+						</div>
+						<ul class="price-description__list">
+							<li>
+								<b>Вечерняя группа</b>
+								<span>ВТ</span><span>ЧТ</span>18:00 – 20:10
+							</li>
+							<li>
+								<b>Группа выходного дня </b>
+								<span>СБ</span><span>ВСК</span>12:00 – 14:10
+							</li>
+						</ul>
+					</div>
+					<div class="price-value">
+						<span>
+							Стоимость курса
+						</span>
+						270 руб.
+					</div>
+					<div class="price-button">
+						<div class="main-btn open-modal" data-modal="orderModal">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M19 3H14.82C14.4 1.84 13.3 1 12 1C10.7 1 9.6 1.84 9.18 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3ZM12 3C12.55 3 13 3.45 13 4C13 4.55 12.55 5 12 5C11.45 5 11 4.55 11 4C11 3.45 11.45 3 12 3ZM12 7C13.66 7 15 8.34 15 10C15 11.66 13.66 13 12 13C10.34 13 9 11.66 9 10C9 8.34 10.34 7 12 7ZM18 19H6V17.6C6 15.6 10 14.5 12 14.5C14 14.5 18 15.6 18 17.6V19Z"
+									fill="white" />
+							</svg>
+							Подать заявку
+						</div>
+					</div>
+				</div>
+				<div class="price-item">
+					<div class="price-title">
+						Дистанционное
+						обучение
+					</div>
+					<div class="price-description">
+						<div class="price-description__group">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<circle cx="12" cy="12" r="9" stroke="#2C2E3F" stroke-width="2" />
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M15.61 8.33984C16.68 8.33984 17.54 9.19984 17.54 10.2698C17.54 11.3398 16.68 12.1998 15.61 12.1998C14.54 12.1998 13.68 11.3398 13.68 10.2698C13.67 9.19984 14.54 8.33984 15.61 8.33984Z"
+									fill="#2C2E3F" />
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M9.61 6.75977C10.91 6.75977 11.97 7.81977 11.97 9.11977C11.97 10.4198 10.91 11.4798 9.61 11.4798C8.31 11.4798 7.25 10.4198 7.25 9.11977C7.25 7.80977 8.3 6.75977 9.61 6.75977Z"
+									fill="#2C2E3F" />
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M9.60997 15.8902V19.6402C7.20997 18.8902 5.30997 17.0402 4.46997 14.6802C5.51997 13.5602 8.13997 12.9902 9.60997 12.9902C10.14 12.9902 10.81 13.0702 11.51 13.2102C9.86997 14.0802 9.60997 15.2302 9.60997 15.8902Z"
+									fill="#2C2E3F" />
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M12 19.9998C11.73 19.9998 11.47 19.9898 11.21 19.9598V15.8898C11.21 14.4698 14.15 13.7598 15.61 13.7598C16.68 13.7598 18.53 14.1498 19.45 14.9098C18.28 17.8798 15.39 19.9998 12 19.9998Z"
+									fill="#2C2E3F" />
+							</svg>
+							Группа 10-13 человек
+						</div>
+						<div class="price-description__group">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M11.99 2C6.47 2 2 6.48 2 12C2 17.52 6.47 22 11.99 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 11.99 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20ZM11.78 7H11.72C11.32 7 11 7.32 11 7.72V12.44C11 12.79 11.18 13.12 11.49 13.3L15.64 15.79C15.98 15.99 16.42 15.89 16.62 15.55C16.83 15.21 16.72 14.76 16.37 14.56L12.5 12.26V7.72C12.5 7.32 12.18 7 11.78 7Z"
+									fill="#2C2E3F" />
+							</svg>
+							Продолжительность 13 часов
+						</div>
+						<ul class="price-description__list">
+							<li>
+								<b>Вечерняя группа</b>
+								<span>ВТ</span><span>ЧТ</span>18:00 – 20:10
+							</li>
+							<li>
+								<b>Группа выходного дня </b>
+								<span>СБ</span><span>ВСК</span>12:00 – 14:10
+							</li>
+						</ul>
+					</div>
+					<div class="price-value">
+						<span>
+							Стоимость курса
+						</span>
+						270 руб.
+					</div>
+					<div class="price-button">
+						<div class="main-btn open-modal" data-modal="orderModal">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M19 3H14.82C14.4 1.84 13.3 1 12 1C10.7 1 9.6 1.84 9.18 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3ZM12 3C12.55 3 13 3.45 13 4C13 4.55 12.55 5 12 5C11.45 5 11 4.55 11 4C11 3.45 11.45 3 12 3ZM12 7C13.66 7 15 8.34 15 10C15 11.66 13.66 13 12 13C10.34 13 9 11.66 9 10C9 8.34 10.34 7 12 7ZM18 19H6V17.6C6 15.6 10 14.5 12 14.5C14 14.5 18 15.6 18 17.6V19Z"
+									fill="white" />
+							</svg>
+							Подать заявку
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="section-bottom">
+				<a href="news.html" class="section-link">
+					ВСЕ Предложения
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="cta">
+		<div class="section-wrapper">
+			<div class="cta-outer">
+				<div class="cta-bg">
+					<img src="img/content/Group136.png" alt="">
+				</div>
+				<div class="cta-label">
+					BELSMETA
+				</div>
+				<div class="cta-wrapper">
+					<div class="cta-title h3">
+						Программный комплекс
+						по расчёту смет и процентовок
+					</div>
+					<div class="cta-buttons">
+						<div class="open-modal main-btn" data-modal="demoModal">
+							ДЕМО Версия
+						</div>
+						<div class="open-modal second-btn" data-modal="orderModal">
+							ЗАКАЗАТЬ продукт
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="tutorial">
+		<div class="section-wrapper">
+			<div class="tab-nav">
+				<div class="tab-nav__item active">
+					BELSMETA
+				</div>
+				<div class="tab-nav__item">
+					SOLIDDATA SXW
+				</div>
+			</div>
+			<div class="section-header">
+				<div class="h2">
+					Руководство
+				</div>
+				<div class="section-compare">
+					<span>
+						Смотрите руководство на отдельных платформах:
+					</span>
+					<a href="" class="vimeo">
+						<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M15.9845 4.276C15.914 5.836 14.825 7.974 12.721 10.682C10.5435 13.5155 8.7055 14.93 7.195 14.93C6.255 14.93 5.4765 14.068 4.825 12.344L3.5465 7.5985C3.068 5.877 2.557 5.015 2.008 5.015C1.888 5.015 1.4685 5.265 0.7525 5.7675L0 4.796C0.783145 4.10747 1.561 3.41295 2.3335 2.7125C3.3855 1.7985 4.1775 1.322 4.7035 1.2725C5.948 1.1525 6.7135 2.007 7.003 3.83C7.313 5.7985 7.5265 7.0225 7.649 7.502C8.0085 9.1345 8.4035 9.9525 8.8335 9.9525C9.167 9.9525 9.6695 9.421 10.344 8.361C11.0135 7.301 11.37 6.4965 11.4165 5.9415C11.513 5.03 11.153 4.569 10.341 4.569C9.9585 4.569 9.5625 4.6505 9.1555 4.8295C9.9475 2.2515 11.445 0.990996 13.6635 1.0715C15.312 1.111 16.083 2.181 15.9915 4.2695L15.9845 4.276Z"
+								fill="#1AB7EA" />
+						</svg>
+						Vimeo
+					</a>
+					<a href="" class="youtube">
+						<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M15.6641 4.13564C15.5712 3.8035 15.3941 3.50099 15.15 3.25738C14.9058 3.01378 14.6029 2.83733 14.2706 2.74514C13.0231 2.41164 8.00809 2.41164 8.00809 2.41164C8.00809 2.41164 3.00259 2.40364 1.74209 2.74514C1.41029 2.83774 1.10799 3.01437 0.864401 3.25795C0.620817 3.50153 0.444189 3.80384 0.351588 4.13564C0.114688 5.41275 -0.0019885 6.70925 0.00308848 8.00814C0.000776932 9.30078 0.117436 10.5909 0.351588 11.8621C0.444488 12.1941 0.621169 12.4966 0.864668 12.7407C1.10817 12.9847 1.41031 13.162 1.74209 13.2556C2.98959 13.5891 8.00809 13.5891 8.00809 13.5891C8.00809 13.5891 13.0106 13.5891 14.2706 13.2556C14.6029 13.1624 14.9056 12.9853 15.1497 12.7412C15.3937 12.4972 15.5709 12.1944 15.6641 11.8621C15.8936 10.5916 16.0056 9.29964 15.9976 8.00814C16.0056 6.70814 15.8961 5.41414 15.6641 4.13564ZM6.40609 10.4016V5.60414L10.5806 8.00814L6.40609 10.4016Z"
+								fill="#FF0000" />
+						</svg>
+						YouTube
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="tutorial-wrapper tab-wrapper">
+			<div class="tab-panel active">
+				<div class="tutorial-slider">
+					<div class="tutorial-item">
+						<div class="tutorial-item__image">
+							<img src="img/content/Mask.png" alt="">
+						</div>
+						<a class="tutorial-item__hover" data-fancybox href="https://www.youtube.com/embed/cTSxblxadhw">
+							<svg width="124" height="124" viewBox="0 0 124 124" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<circle cx="62" cy="62" r="62" fill="white" />
+								<path d="M46 92L91 62L46 32L46 92Z" fill="#2F80ED" />
+							</svg>
+						</a>
+						<div class="tutorial-item__title">
+							Установка программ
+						</div>
+						<div class="tutorial-item__description">
+							Из этого видео узнаете, как правильно и <br> быстро установить программу, настроить ее <br>
+							работу или перенести ПО на другое <br> устройство.
+						</div>
+						<div class="tutorial-item__count">
+							<span>
+								01
+							</span> /
+							<span>
+								12
+							</span>
+						</div>
+					</div>
+					<div class="tutorial-item">
+						<div class="tutorial-item__image">
+							<img src="img/content/Mask.png" alt="">
+						</div>
+						<a class="tutorial-item__hover" data-fancybox href="https://www.youtube.com/embed/cTSxblxadhw">
+							<svg width="124" height="124" viewBox="0 0 124 124" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<circle cx="62" cy="62" r="62" fill="white" />
+								<path d="M46 92L91 62L46 32L46 92Z" fill="#2F80ED" />
+							</svg>
+						</a>
+						<div class="tutorial-item__title">
+							Установка программ
+						</div>
+						<div class="tutorial-item__count">
+							<span>
+								02
+							</span> /
+							<span>
+								12
+							</span>
+						</div>
+					</div>
+					<div class="tutorial-item">
+						<div class="tutorial-item__image">
+							<img src="img/content/Mask.png" alt="">
+						</div>
+						<a class="tutorial-item__hover" data-fancybox href="https://www.youtube.com/embed/cTSxblxadhw">
+							<svg width="124" height="124" viewBox="0 0 124 124" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<circle cx="62" cy="62" r="62" fill="white" />
+								<path d="M46 92L91 62L46 32L46 92Z" fill="#2F80ED" />
+							</svg>
+						</a>
+						<div class="tutorial-item__title">
+							Установка программ
+						</div>
+						<div class="tutorial-item__count">
+							<span>
+								03
+							</span> /
+							<span>
+								12
+							</span>
+						</div>
+					</div>
+					<div class="tutorial-item">
+						<div class="tutorial-item__image">
+							<img src="img/content/Mask.png" alt="">
+						</div>
+						<a class="tutorial-item__hover" data-fancybox href="https://www.youtube.com/embed/cTSxblxadhw">
+							<svg width="124" height="124" viewBox="0 0 124 124" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<circle cx="62" cy="62" r="62" fill="white" />
+								<path d="M46 92L91 62L46 32L46 92Z" fill="#2F80ED" />
+							</svg>
+						</a>
+						<div class="tutorial-item__title">
+							Установка программ
+						</div>
+						<div class="tutorial-item__count">
+							<span>
+								04
+							</span> /
+							<span>
+								12
+							</span>
+						</div>
+					</div>
+					<div class="tutorial-item">
+						<div class="tutorial-item__image">
+							<img src="img/content/Mask.png" alt="">
+						</div>
+						<a class="tutorial-item__hover" data-fancybox href="https://www.youtube.com/embed/cTSxblxadhw">
+							<svg width="124" height="124" viewBox="0 0 124 124" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<circle cx="62" cy="62" r="62" fill="white" />
+								<path d="M46 92L91 62L46 32L46 92Z" fill="#2F80ED" />
+							</svg>
+						</a>
+						<div class="tutorial-item__title">
+							Установка программ
+						</div>
+						<div class="tutorial-item__count">
+							<span>
+								05
+							</span> /
+							<span>
+								12
+							</span>
+						</div>
+					</div>
+					<div class="tutorial-item">
+						<div class="tutorial-item__image">
+							<img src="img/content/Mask.png" alt="">
+						</div>
+						<a class="tutorial-item__hover" data-fancybox href="https://www.youtube.com/embed/cTSxblxadhw">
+							<svg width="124" height="124" viewBox="0 0 124 124" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<circle cx="62" cy="62" r="62" fill="white" />
+								<path d="M46 92L91 62L46 32L46 92Z" fill="#2F80ED" />
+							</svg>
+						</a>
+						<div class="tutorial-item__title">
+							Установка программ
+						</div>
+						<div class="tutorial-item__count">
+							<span>
+								06
+							</span> /
+							<span>
+								12
+							</span>
+						</div>
+					</div>
+					<div class="tutorial-item">
+						<div class="tutorial-item__image">
+							<img src="img/content/Mask.png" alt="">
+						</div>
+						<a class="tutorial-item__hover" data-fancybox href="https://www.youtube.com/embed/cTSxblxadhw">
+							<svg width="124" height="124" viewBox="0 0 124 124" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<circle cx="62" cy="62" r="62" fill="white" />
+								<path d="M46 92L91 62L46 32L46 92Z" fill="#2F80ED" />
+							</svg>
+						</a>
+						<div class="tutorial-item__title">
+							Установка программ
+						</div>
+						<div class="tutorial-item__count">
+							<span>
+								07
+							</span> /
+							<span>
+								12
+							</span>
+						</div>
+					</div>
+					<div class="tutorial-item">
+						<div class="tutorial-item__image">
+							<img src="img/content/Mask.png" alt="">
+						</div>
+						<a class="tutorial-item__hover" data-fancybox href="https://www.youtube.com/embed/cTSxblxadhw">
+							<svg width="124" height="124" viewBox="0 0 124 124" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<circle cx="62" cy="62" r="62" fill="white" />
+								<path d="M46 92L91 62L46 32L46 92Z" fill="#2F80ED" />
+							</svg>
+						</a>
+						<div class="tutorial-item__title">
+							Установка программ
+						</div>
+						<div class="tutorial-item__count">
+							<span>
+								08
+							</span> /
+							<span>
+								12
+							</span>
+						</div>
+					</div>
+					<div class="tutorial-item">
+						<div class="tutorial-item__image">
+							<img src="img/content/Mask.png" alt="">
+						</div>
+						<a class="tutorial-item__hover" data-fancybox href="https://www.youtube.com/embed/cTSxblxadhw">
+							<svg width="124" height="124" viewBox="0 0 124 124" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<circle cx="62" cy="62" r="62" fill="white" />
+								<path d="M46 92L91 62L46 32L46 92Z" fill="#2F80ED" />
+							</svg>
+						</a>
+						<div class="tutorial-item__title">
+							Установка программ
+						</div>
+						<div class="tutorial-item__count">
+							<span>
+								09
+							</span> /
+							<span>
+								12
+							</span>
+						</div>
+					</div>
+					<div class="tutorial-item">
+						<div class="tutorial-item__image">
+							<img src="img/content/Mask.png" alt="">
+						</div>
+						<a class="tutorial-item__hover" data-fancybox href="https://www.youtube.com/embed/cTSxblxadhw">
+							<svg width="124" height="124" viewBox="0 0 124 124" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<circle cx="62" cy="62" r="62" fill="white" />
+								<path d="M46 92L91 62L46 32L46 92Z" fill="#2F80ED" />
+							</svg>
+						</a>
+						<div class="tutorial-item__title">
+							Установка программ
+						</div>
+						<div class="tutorial-item__count">
+							<span>
+								10
+							</span> /
+							<span>
+								12
+							</span>
+						</div>
+					</div>
+					<div class="tutorial-item">
+						<div class="tutorial-item__image">
+							<img src="img/content/Mask.png" alt="">
+						</div>
+						<a class="tutorial-item__hover" data-fancybox href="https://www.youtube.com/embed/cTSxblxadhw">
+							<svg width="124" height="124" viewBox="0 0 124 124" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<circle cx="62" cy="62" r="62" fill="white" />
+								<path d="M46 92L91 62L46 32L46 92Z" fill="#2F80ED" />
+							</svg>
+						</a>
+						<div class="tutorial-item__title">
+							Установка программ
+						</div>
+						<div class="tutorial-item__count">
+							<span>
+								11
+							</span> /
+							<span>
+								12
+							</span>
+						</div>
+					</div>
+					<div class="tutorial-item">
+						<div class="tutorial-item__image">
+							<img src="img/content/Mask.png" alt="">
+						</div>
+						<a class="tutorial-item__hover" data-fancybox href="https://www.youtube.com/embed/cTSxblxadhw">
+							<svg width="124" height="124" viewBox="0 0 124 124" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<circle cx="62" cy="62" r="62" fill="white" />
+								<path d="M46 92L91 62L46 32L46 92Z" fill="#2F80ED" />
+							</svg>
+						</a>
+						<div class="tutorial-item__title">
+							Установка программ
+						</div>
+						<div class="tutorial-item__count">
+							<span>
+								12
+							</span> /
+							<span>
+								12
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="section-wrapper">
+					<div class="section-bottom">
+						<a href="news.html" class="section-link">
+							ВСЕ Видео руководства
+						</a>
+						<div class="slider-nav">
+							<div class="slider-nav__prev">
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M12.7069 17.293L8.41394 13H17.9999V11H8.41394L12.7069 6.70697L11.2929 5.29297L4.58594 12L11.2929 18.707L12.7069 17.293Z"
+										fill="#2F80ED" />
+								</svg>
+							</div>
+							<div class="slider-nav__count">
+								<span>01</span>/<span>06</span>
+							</div>
+							<div class="slider-nav__next">
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M9.879 17.293L14.172 13H4.586V11H14.172L9.879 6.70697L11.293 5.29297L18 12L11.293 18.707L9.879 17.293Z"
+										fill="#2F80ED" />
+								</svg>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tab-panel">
+				<div class="tutorial-slider">
+					<div class="tutorial-item">
+						<div class="tutorial-item__image">
+							<img src="img/content/Mask.png" alt="">
+						</div>
+						<a class="tutorial-item__hover" data-fancybox href="https://www.youtube.com/embed/cTSxblxadhw">
+							<svg width="124" height="124" viewBox="0 0 124 124" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<circle cx="62" cy="62" r="62" fill="white" />
+								<path d="M46 92L91 62L46 32L46 92Z" fill="#2F80ED" />
+							</svg>
+						</a>
+						<div class="tutorial-item__title">
+							Установка программ
+						</div>
+						<div class="tutorial-item__description">
+							Из этого видео узнаете, как правильно и <br> быстро установить программу, настроить ее <br>
+							работу или перенести ПО на другое <br> устройство.
+						</div>
+						<div class="tutorial-item__count">
+							<span>
+								01
+							</span> /
+							<span>
+								12
+							</span>
+						</div>
+					</div>
+					<div class="tutorial-item">
+						<div class="tutorial-item__image">
+							<img src="img/content/Mask.png" alt="">
+						</div>
+						<a class="tutorial-item__hover" data-fancybox href="https://www.youtube.com/embed/cTSxblxadhw">
+							<svg width="124" height="124" viewBox="0 0 124 124" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<circle cx="62" cy="62" r="62" fill="white" />
+								<path d="M46 92L91 62L46 32L46 92Z" fill="#2F80ED" />
+							</svg>
+						</a>
+						<div class="tutorial-item__title">
+							Установка программ
+						</div>
+						<div class="tutorial-item__count">
+							<span>
+								02
+							</span> /
+							<span>
+								12
+							</span>
+						</div>
+					</div>
+					<div class="tutorial-item">
+						<div class="tutorial-item__image">
+							<img src="img/content/Mask.png" alt="">
+						</div>
+						<a class="tutorial-item__hover" data-fancybox href="https://www.youtube.com/embed/cTSxblxadhw">
+							<svg width="124" height="124" viewBox="0 0 124 124" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<circle cx="62" cy="62" r="62" fill="white" />
+								<path d="M46 92L91 62L46 32L46 92Z" fill="#2F80ED" />
+							</svg>
+						</a>
+						<div class="tutorial-item__title">
+							Установка программ
+						</div>
+						<div class="tutorial-item__count">
+							<span>
+								03
+							</span> /
+							<span>
+								12
+							</span>
+						</div>
+					</div>
+					<div class="tutorial-item">
+						<div class="tutorial-item__image">
+							<img src="img/content/Mask.png" alt="">
+						</div>
+						<a class="tutorial-item__hover" data-fancybox href="https://www.youtube.com/embed/cTSxblxadhw">
+							<svg width="124" height="124" viewBox="0 0 124 124" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<circle cx="62" cy="62" r="62" fill="white" />
+								<path d="M46 92L91 62L46 32L46 92Z" fill="#2F80ED" />
+							</svg>
+						</a>
+						<div class="tutorial-item__title">
+							Установка программ
+						</div>
+						<div class="tutorial-item__count">
+							<span>
+								04
+							</span> /
+							<span>
+								12
+							</span>
+						</div>
+					</div>
+					<div class="tutorial-item">
+						<div class="tutorial-item__image">
+							<img src="img/content/Mask.png" alt="">
+						</div>
+						<a class="tutorial-item__hover" data-fancybox href="https://www.youtube.com/embed/cTSxblxadhw">
+							<svg width="124" height="124" viewBox="0 0 124 124" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<circle cx="62" cy="62" r="62" fill="white" />
+								<path d="M46 92L91 62L46 32L46 92Z" fill="#2F80ED" />
+							</svg>
+						</a>
+						<div class="tutorial-item__title">
+							Установка программ
+						</div>
+						<div class="tutorial-item__count">
+							<span>
+								05
+							</span> /
+							<span>
+								12
+							</span>
+						</div>
+					</div>
+					<div class="tutorial-item">
+						<div class="tutorial-item__image">
+							<img src="img/content/Mask.png" alt="">
+						</div>
+						<a class="tutorial-item__hover" data-fancybox href="https://www.youtube.com/embed/cTSxblxadhw">
+							<svg width="124" height="124" viewBox="0 0 124 124" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<circle cx="62" cy="62" r="62" fill="white" />
+								<path d="M46 92L91 62L46 32L46 92Z" fill="#2F80ED" />
+							</svg>
+						</a>
+						<div class="tutorial-item__title">
+							Установка программ
+						</div>
+						<div class="tutorial-item__count">
+							<span>
+								06
+							</span> /
+							<span>
+								12
+							</span>
+						</div>
+					</div>
+					<div class="tutorial-item">
+						<div class="tutorial-item__image">
+							<img src="img/content/Mask.png" alt="">
+						</div>
+						<a class="tutorial-item__hover" data-fancybox href="https://www.youtube.com/embed/cTSxblxadhw">
+							<svg width="124" height="124" viewBox="0 0 124 124" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<circle cx="62" cy="62" r="62" fill="white" />
+								<path d="M46 92L91 62L46 32L46 92Z" fill="#2F80ED" />
+							</svg>
+						</a>
+						<div class="tutorial-item__title">
+							Установка программ
+						</div>
+						<div class="tutorial-item__count">
+							<span>
+								07
+							</span> /
+							<span>
+								12
+							</span>
+						</div>
+					</div>
+					<div class="tutorial-item">
+						<div class="tutorial-item__image">
+							<img src="img/content/Mask.png" alt="">
+						</div>
+						<a class="tutorial-item__hover" data-fancybox href="https://www.youtube.com/embed/cTSxblxadhw">
+							<svg width="124" height="124" viewBox="0 0 124 124" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<circle cx="62" cy="62" r="62" fill="white" />
+								<path d="M46 92L91 62L46 32L46 92Z" fill="#2F80ED" />
+							</svg>
+						</a>
+						<div class="tutorial-item__title">
+							Установка программ
+						</div>
+						<div class="tutorial-item__count">
+							<span>
+								08
+							</span> /
+							<span>
+								12
+							</span>
+						</div>
+					</div>
+					<div class="tutorial-item">
+						<div class="tutorial-item__image">
+							<img src="img/content/Mask.png" alt="">
+						</div>
+						<a class="tutorial-item__hover" data-fancybox href="https://www.youtube.com/embed/cTSxblxadhw">
+							<svg width="124" height="124" viewBox="0 0 124 124" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<circle cx="62" cy="62" r="62" fill="white" />
+								<path d="M46 92L91 62L46 32L46 92Z" fill="#2F80ED" />
+							</svg>
+						</a>
+						<div class="tutorial-item__title">
+							Установка программ
+						</div>
+						<div class="tutorial-item__count">
+							<span>
+								09
+							</span> /
+							<span>
+								12
+							</span>
+						</div>
+					</div>
+					<div class="tutorial-item">
+						<div class="tutorial-item__image">
+							<img src="img/content/Mask.png" alt="">
+						</div>
+						<a class="tutorial-item__hover" data-fancybox href="https://www.youtube.com/embed/cTSxblxadhw">
+							<svg width="124" height="124" viewBox="0 0 124 124" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<circle cx="62" cy="62" r="62" fill="white" />
+								<path d="M46 92L91 62L46 32L46 92Z" fill="#2F80ED" />
+							</svg>
+						</a>
+						<div class="tutorial-item__title">
+							Установка программ
+						</div>
+						<div class="tutorial-item__count">
+							<span>
+								10
+							</span> /
+							<span>
+								12
+							</span>
+						</div>
+					</div>
+					<div class="tutorial-item">
+						<div class="tutorial-item__image">
+							<img src="img/content/Mask.png" alt="">
+						</div>
+						<a class="tutorial-item__hover" data-fancybox href="https://www.youtube.com/embed/cTSxblxadhw">
+							<svg width="124" height="124" viewBox="0 0 124 124" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<circle cx="62" cy="62" r="62" fill="white" />
+								<path d="M46 92L91 62L46 32L46 92Z" fill="#2F80ED" />
+							</svg>
+						</a>
+						<div class="tutorial-item__title">
+							Установка программ
+						</div>
+						<div class="tutorial-item__count">
+							<span>
+								11
+							</span> /
+							<span>
+								12
+							</span>
+						</div>
+					</div>
+					<div class="tutorial-item">
+						<div class="tutorial-item__image">
+							<img src="img/content/Mask.png" alt="">
+						</div>
+						<a class="tutorial-item__hover" data-fancybox href="https://www.youtube.com/embed/cTSxblxadhw">
+							<svg width="124" height="124" viewBox="0 0 124 124" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<circle cx="62" cy="62" r="62" fill="white" />
+								<path d="M46 92L91 62L46 32L46 92Z" fill="#2F80ED" />
+							</svg>
+						</a>
+						<div class="tutorial-item__title">
+							Установка программ
+						</div>
+						<div class="tutorial-item__count">
+							<span>
+								12
+							</span> /
+							<span>
+								12
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="section-wrapper">
+					<div class="section-bottom">
+						<a href="news.html" class="section-link">
+							ВСЕ Видео руководства
+						</a>
+						<div class="slider-nav">
+							<div class="slider-nav__prev">
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M12.7069 17.293L8.41394 13H17.9999V11H8.41394L12.7069 6.70697L11.2929 5.29297L4.58594 12L11.2929 18.707L12.7069 17.293Z"
+										fill="#2F80ED" />
+								</svg>
+							</div>
+							<div class="slider-nav__count">
+								<span>01</span>/<span>06</span>
+							</div>
+							<div class="slider-nav__next">
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M9.879 17.293L14.172 13H4.586V11H14.172L9.879 6.70697L11.293 5.29297L18 12L11.293 18.707L9.879 17.293Z"
+										fill="#2F80ED" />
+								</svg>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="section-wrapper">
+			<div class="footer-row">
+				<div class="footer-wrapper">
+					<div class="footer-col">
+						<div class="footer-title">
+							Ссылки
+						</div>
+						<div class="footer-menu">
+							<ul>
+								<li>
+									<a href="">
+										Новости
+									</a>
+								</li>
+								<li>
+									<a href="">
+										Программы
+									</a>
+								</li>
+								<li>
+									<a href="">
+										Тарифы
+									</a>
+								</li>
+								<li>
+									<a href="">
+										Обучение
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer-col">
+						<div class="footer-menu">
+							<ul>
+								<li>
+									<a href="">
+										Руководство
+									</a>
+								</li>
+								<li>
+									<a href="">
+										Контакты
+									</a>
+								</li>
+								<li>
+									<a href="">
+										Поддержка
+									</a>
+								</li>
+								<li>
+									<a href="">
+										Заказать
+									</a>
+								</li>
+								<li>
+									<a href="">
+										Демо версии
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer-col">
+						<div class="footer-title">
+							Контакты
+						</div>
+						<div class="footer-menu">
+							<div class="footer-menu__title">
+								Адрес
+							</div>
+							<div class="footer-menu__description">
+								220035, г. Минск, <br>
+								ул. Тимирязева, <br>
+								67, оф. 533
+							</div>
+							<a href="" class="footer-menu__link">
+								на карте
+							</a>
+						</div>
+					</div>
+					<div class="footer-col">
+						<div class="footer-menu">
+							<div class="footer-menu__title">
+								Адрес для корреспонденции
+							</div>
+							<div class="footer-menu__description">
+								220116, г. Минск, <br>
+								а/я 113, <br>
+								ООО "Солид Дата"
+							</div>
+							<a href="" class="footer-menu__link">
+								на карте
+							</a>
+						</div>
+					</div>
+					<div class="footer-col">
+						<div class="footer-menu">
+							<div class="footer-menu__title">
+								Сall center
+							</div>
+							<ul>
+								<li>
+									<a href="">
+										(17) 257-15-88
+									</a>
+								</li>
+								<li>
+									<a href="">
+										(29) 358-15-88
+									</a>
+								</li>
+								<li>
+									<a href="">
+										(29) 558-15-88
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer-col">
+						<div class="footer-menu">
+							<div class="footer-menu__title">
+								E-mail
+							</div>
+							<ul>
+								<li>Техподдержка
+									<a href="">
+										support@belsmeta.by
+									</a>
+								</li>
+								<li>Договорной отдел
+									<a href="">
+										doc@belsmeta.by
+									</a>
+								</li>
+								<li>Бухгалтерия
+									<a href="">
+										gb@belsmeta.by
+									</a>
+								</li>
+								<li>Обучающие курсы
+									<a href="">
+										seminar@belsmeta.by
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="footer-copy">
+					© 2020 SOLIDDATA. Designed by Clickmedia
+				</div>
+				<div class="footer-social">
+					<ul>
+						<li>
+							<a href="">
+								<svg width="24" height="18" viewBox="0 0 24 18" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path opacity="0.5"
+										d="M22.5407 3.37125C22.4129 2.91443 22.1694 2.49834 21.8336 2.16328C21.4978 1.82822 21.0812 1.58553 20.6241 1.45873C18.9082 1.00002 12.0105 1.00002 12.0105 1.00002C12.0105 1.00002 5.1258 0.989019 3.39208 1.45873C2.93571 1.58609 2.51992 1.82903 2.18489 2.16406C1.84986 2.49909 1.60692 2.91489 1.47955 3.37125C1.15372 5.12782 0.993235 6.91106 1.00022 8.69758C0.997039 10.4755 1.15749 12.25 1.47955 13.9985C1.60733 14.4551 1.85034 14.8712 2.18526 15.2068C2.52017 15.5425 2.93575 15.7864 3.39208 15.9151C5.10792 16.3738 12.0105 16.3738 12.0105 16.3738C12.0105 16.3738 18.891 16.3738 20.6241 15.9151C21.0811 15.7869 21.4975 15.5433 21.8332 15.2076C22.1689 14.8719 22.4125 14.4555 22.5407 13.9985C22.8564 12.251 23.0104 10.4739 22.9994 8.69758C23.0104 6.90953 22.8598 5.12973 22.5407 3.37125ZM9.80706 11.9897V5.39106L15.5488 8.69758L9.80706 11.9897Z"
+										stroke="black" stroke-width="2" />
+								</svg>
+								<svg width="22" height="16" viewBox="0 0 22 16" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M21.5407 2.37125C21.4129 1.91443 21.1694 1.49834 20.8336 1.16328C20.4978 0.828218 20.0812 0.585533 19.6241 0.458726C17.9082 2.19345e-05 11.0105 2.20409e-05 11.0105 2.20409e-05C11.0105 2.20409e-05 4.1258 -0.0109815 2.39208 0.458726C1.93571 0.58609 1.51992 0.829029 1.18489 1.16406C0.849857 1.49909 0.606918 1.91489 0.479554 2.37125C0.153716 4.12782 -0.00676459 5.91106 0.000218405 7.69758C-0.00296095 9.47551 0.157494 11.25 0.479554 12.9985C0.60733 13.4551 0.850341 13.8712 1.18526 14.2068C1.52017 14.5425 1.93575 14.7864 2.39208 14.9151C4.10792 15.3738 11.0105 15.3738 11.0105 15.3738C11.0105 15.3738 17.891 15.3738 19.6241 14.9151C20.0811 14.7869 20.4975 14.5433 20.8332 14.2076C21.1689 13.8719 21.4125 13.4555 21.5407 12.9985C21.8564 11.251 22.0104 9.47394 21.9994 7.69758C22.0104 5.90953 21.8598 4.12973 21.5407 2.37125ZM8.80706 10.9897V4.39106L14.5488 7.69758L8.80706 10.9897Z"
+										fill="#FF011D" />
+								</svg>
+
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<svg width="25" height="22" viewBox="0 0 25 22" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path opacity="0.5"
+										d="M23.9804 5.41151C23.8834 7.55667 22.3859 10.4966 19.4927 14.2204C16.4984 18.1168 13.971 20.0619 11.8939 20.0619C10.6013 20.0619 9.53076 18.8765 8.63488 16.5059L6.87681 9.9803C6.21882 7.61305 5.51614 6.42771 4.76121 6.42771C4.5962 6.42771 4.01934 6.77149 3.03477 7.46248L2 6.12656C3.07691 5.17977 4.14654 4.22473 5.20881 3.26153C6.65542 2.00469 7.7445 1.34945 8.46781 1.28138C10.1791 1.11637 11.2318 2.2914 11.6299 4.79821C12.0561 7.50511 12.3497 9.18823 12.5182 9.8476C13.0125 12.0925 13.5557 13.2173 14.147 13.2173C14.6056 13.2173 15.2966 12.4864 16.2241 11.0288C17.1447 9.5712 17.6349 8.46493 17.6989 7.70175C17.8316 6.44834 17.3365 5.81441 16.22 5.81441C15.694 5.81441 15.1494 5.92649 14.5898 6.17263C15.6789 2.62761 17.7381 0.894289 20.7887 1.00498C23.0556 1.0593 24.1158 2.53066 23.99 5.40257L23.9804 5.41151Z"
+										stroke="black" stroke-width="2" />
+								</svg>
+								<svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M21.9804 4.41151C21.8834 6.55667 20.3859 9.49665 17.4927 13.2204C14.4984 17.1168 11.971 19.0619 9.89388 19.0619C8.60128 19.0619 7.53076 17.8765 6.63488 15.5059L4.87681 8.9803C4.21882 6.61305 3.51614 5.42771 2.76121 5.42771C2.5962 5.42771 2.01934 5.77149 1.03477 6.46248L0 5.12656C1.07691 4.17977 2.14654 3.22473 3.20881 2.26153C4.65542 1.00469 5.7445 0.349449 6.46781 0.281381C8.17912 0.116368 9.23177 1.2914 9.62986 3.79821C10.0561 6.50511 10.3497 8.18823 10.5182 8.8476C11.0125 11.0925 11.5557 12.2173 12.147 12.2173C12.6056 12.2173 13.2966 11.4864 14.2241 10.0288C15.1447 8.5712 15.6349 7.46493 15.6989 6.70175C15.8316 5.44834 15.3365 4.81441 14.22 4.81441C13.694 4.81441 13.1494 4.92649 12.5898 5.17263C13.6789 1.62761 15.7381 -0.105711 18.7887 0.00498467C21.0556 0.0593013 22.1158 1.53066 21.99 4.40257L21.9804 4.41151Z"
+										fill="#00ADEF" />
+								</svg>
+
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<svg width="13" height="22" viewBox="0 0 13 22" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<g opacity="0.5">
+										<path fill-rule="evenodd" clip-rule="evenodd"
+											d="M12 1H9C6.23858 1 4 3.23858 4 6V9H1V13H4V21H8V13H11L12 9H8V6C8 5.44772 8.44772 5 9 5H12V1Z"
+											stroke="black" stroke-width="2" stroke-linecap="round"
+											stroke-linejoin="round" />
+									</g>
+								</svg>
+								<svg width="11" height="20" viewBox="0 0 11 20" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd"
+										d="M11 0H8C5.23858 0 3 2.23858 3 5V8H0V12H3V20H7V12H10L11 8H7V5C7 4.44772 7.44772 4 8 4H11V0Z"
+										fill="#3C66DF" />
+								</svg>
+
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<g opacity="0.5">
+										<rect x="1" y="1" width="20" height="20" rx="5" stroke="black" stroke-width="2"
+											stroke-linecap="round" stroke-linejoin="round" />
+										<path fill-rule="evenodd" clip-rule="evenodd"
+											d="M15.0001 10.3705C15.2532 12.0775 14.3831 13.7543 12.8417 14.5302C11.3003 15.306 9.4351 15.0059 8.2149 13.7856C6.99469 12.5654 6.69455 10.7003 7.47038 9.15886C8.24621 7.61746 9.92308 6.74736 11.6301 7.00048C13.373 7.25894 14.7416 8.62751 15.0001 10.3705Z"
+											stroke="black" stroke-width="2" stroke-linecap="round"
+											stroke-linejoin="round" />
+									</g>
+								</svg>
+								<svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<rect width="20" height="20" rx="5" fill="url(#paint0_angular)" />
+									<path fill-rule="evenodd" clip-rule="evenodd"
+										d="M14.0001 9.37048C14.2532 11.0775 13.3831 12.7543 11.8417 13.5302C10.3003 14.306 8.4351 14.0059 7.2149 12.7856C5.99469 11.5654 5.69455 9.70026 6.47038 8.15886C7.24621 6.61746 8.92308 5.74736 10.6301 6.00048C12.373 6.25894 13.7416 7.62751 14.0001 9.37048Z"
+										stroke="white" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+									<defs>
+										<radialGradient id="paint0_angular" cx="0" cy="0" r="1"
+											gradientUnits="userSpaceOnUse"
+											gradientTransform="translate(10 10) rotate(90) scale(10)">
+											<stop offset="0.0729167" stop-color="#F19D2B" />
+											<stop offset="0.348958" stop-color="#8A39C6" />
+											<stop offset="0.640625" stop-color="#ED3066" />
+											<stop offset="0.885417" stop-color="#EF483F" />
+										</radialGradient>
+									</defs>
+								</svg>
+
+
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<div class="modal" id="enterModal">
+		<div class="modal-wrapper">
+			<div class="modal-bg close-modal">
+
+			</div>
+			<div class="modal-inner">
+				<div class="modal-body">
+					<div class="modal-subtitle">
+						Здравствуйте, мы всегда
+					</div>
+					<div class="modal-title h3">
+						Рады вас видеть!
+					</div>
+					<form action="" class="modal-form">
+						<div class="form-group email">
+							<input type="email" name="email" required placeholder="E-mail">
+							<label for="email">E-mail</label>
+						</div>
+						<div class="form-group password">
+							<input type="password" name="password" required placeholder="*****">
+							<div class="password-toggle">
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M12 9C10.358 9 9 10.359 9 12C9 13.642 10.358 15 12 15C13.641 15 15 13.642 15 12C15 10.359 13.641 9 12 9Z"
+										fill="#2C2E3F" />
+									<path
+										d="M12 5C4.408 5 2.12632 11.617 2.10543 11.684L2 12L2.10444 12.316C2.12632 12.383 4.408 19 12 19C19.592 19 21.8737 12.383 21.8946 12.316L22 12L21.8956 11.684C21.8737 11.617 19.592 5 12 5ZM12 17C6.67774 17 4.61587 13.154 4.11657 12C4.61786 10.842 6.68072 7 12 7C17.3223 7 19.3841 10.846 19.8834 12C19.3821 13.158 17.3193 17 12 17Z"
+										fill="#2C2E3F" />
+								</svg>
+							</div>
+						</div>
+						<div class="form-link">
+							<div class="open-modal" data-modal="regModal">
+								Регистрация
+							</div>
+							<div class="open-modal" data-modal="passwordModal">
+								Забыли пароль?
+							</div>
+						</div>
+						<button type="submit" class="form-btn main-btn">
+							Войти
+						</button>
+					</form>
+				</div>
+				<div class="modal-close close-modal">
+					<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M20 2L2 20" stroke="#141517" stroke-width="3" />
+						<path d="M2 2L20 20" stroke="#141517" stroke-width="3" />
+					</svg>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal" id="regModal">
+		<div class="modal-wrapper">
+			<div class="modal-bg close-modal">
+
+			</div>
+			<div class="modal-inner">
+				<div class="modal-body">
+					<div class="modal-title h3">
+						Регистрация
+					</div>
+					<form action="" class="modal-form">
+						<div class="form-group email">
+							<input type="email" name="email" required placeholder="E-mail">
+							<label for="email">E-mail</label>
+						</div>
+						<div class="form-wrapper">
+							<div class="form-group password">
+								<input type="password" name="password" required placeholder="*****">
+								<div class="password-toggle">
+									<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M12 9C10.358 9 9 10.359 9 12C9 13.642 10.358 15 12 15C13.641 15 15 13.642 15 12C15 10.359 13.641 9 12 9Z"
+											fill="#2C2E3F" />
+										<path
+											d="M12 5C4.408 5 2.12632 11.617 2.10543 11.684L2 12L2.10444 12.316C2.12632 12.383 4.408 19 12 19C19.592 19 21.8737 12.383 21.8946 12.316L22 12L21.8956 11.684C21.8737 11.617 19.592 5 12 5ZM12 17C6.67774 17 4.61587 13.154 4.11657 12C4.61786 10.842 6.68072 7 12 7C17.3223 7 19.3841 10.846 19.8834 12C19.3821 13.158 17.3193 17 12 17Z"
+											fill="#2C2E3F" />
+									</svg>
+								</div>
+							</div>
+							<div class="form-group password">
+								<input type="password" name="password" required placeholder="*****">
+								<div class="password-toggle">
+									<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M12 9C10.358 9 9 10.359 9 12C9 13.642 10.358 15 12 15C13.641 15 15 13.642 15 12C15 10.359 13.641 9 12 9Z"
+											fill="#2C2E3F" />
+										<path
+											d="M12 5C4.408 5 2.12632 11.617 2.10543 11.684L2 12L2.10444 12.316C2.12632 12.383 4.408 19 12 19C19.592 19 21.8737 12.383 21.8946 12.316L22 12L21.8956 11.684C21.8737 11.617 19.592 5 12 5ZM12 17C6.67774 17 4.61587 13.154 4.11657 12C4.61786 10.842 6.68072 7 12 7C17.3223 7 19.3841 10.846 19.8834 12C19.3821 13.158 17.3193 17 12 17Z"
+											fill="#2C2E3F" />
+									</svg>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group name">
+							<input type="text" name="name" required placeholder="Name">
+							<label for="name">Ваше Имя</label>
+						</div>
+						<div class="form-group company">
+							<input type="text" name="company" required placeholder="Компания">
+							<label for="company">Компания</label>
+						</div>
+						<div class="form-link">
+							<div class="open-modal" data-modal="regModal">
+								Регистрация
+							</div>
+							<button type="submit" class="form-btn main-btn">
+								Войти
+							</button>
+						</div>
+
+					</form>
+				</div>
+				<div class="modal-close close-modal">
+					<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M20 2L2 20" stroke="#141517" stroke-width="3" />
+						<path d="M2 2L20 20" stroke="#141517" stroke-width="3" />
+					</svg>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal" id="demoModal">
+		<div class="modal-wrapper">
+			<div class="modal-bg close-modal">
+
+			</div>
+			<div class="modal-inner">
+				<div class="modal-body">
+					<div class="modal-subtitle">
+						Получите демо версию
+					</div>
+					<div class="modal-title h3">
+						Прямо сейчас
+					</div>
+					<form action="" class="modal-form">
+						<div class="form-group name">
+							<input type="text" name="name" required placeholder="Name">
+							<label for="name">Ваше Имя</label>
+						</div>
+						<div class="form-group email">
+							<input type="tel" name="phone" required placeholder="+375(__) ___-__-__">
+							<label for="phone">Телефон</label>
+						</div>
+						<div class="form-group email">
+							<input type="email" name="email" required placeholder="E-mail">
+							<label for="email">E-mail</label>
+						</div>
+						<button type="submit" class="form-btn main-btn">
+							Отправить
+						</button>
+					</form>
+				</div>
+				<div class="modal-close close-modal">
+					<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M20 2L2 20" stroke="#141517" stroke-width="3" />
+						<path d="M2 2L20 20" stroke="#141517" stroke-width="3" />
+					</svg>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal" id="orderModal">
+		<div class="modal-wrapper">
+			<div class="modal-bg close-modal">
+
+			</div>
+			<div class="modal-inner">
+				<div class="modal-body">
+					<button type="button" class="order-form_download main-btn"
+						onclick="window.location.href = '/download-docs/dogovor/form-zakaz.docx';"
+						data-toggle="tooltip">
+						<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M10.3047 18H6.30469V16H10.3047V18ZM10.3047 14H6.30469V12H10.3047V14ZM10.3047 1V2H6.30469C5.19469 2 4.30469 2.89 4.30469 4V20C4.30469 20.5304 4.5154 21.0391 4.89047 21.4142C5.26555 21.7893 5.77425 22 6.30469 22H10.3047V23H12.3047V1H10.3047ZM20.3047 8V20C20.3047 21.11 19.4147 22 18.3047 22H14.3047V20H18.3047V11H14.3047V9H18.8047L14.3047 4.5V2L20.3047 8ZM16.3047 14H14.3047V12H16.3047V14ZM16.3047 18H14.3047V16H16.3047V18Z" fill="#ffffff"></path>
+						</svg>
+						Скачать заявку .docx
+					</button>
+					<div class="modal-title h3">
+						Приобретение программного комплекса SXW 
+					</div>
+
+					<div class="order-form modal-form">
+
+						<form id="order-form-soft"action="/form/order-form" method="post"
+							enctype="multipart/form-data">
+							<input type="hidden" name="_csrf"
+								value="qvCSGITrc5Pkwb5cuUcQCgyBZOJFJoW2qjtIdpeb0yHIh6BRy78X27eRjBXzan9GYLMRrSlwtoCTTTEZ_a-ETA==">
+							<ul id="accordion" class="accordion">
+								<li class="order-form-block open" data-form="buy" id="requisites">
+									<div class="order-form-block__header link" data-target="requisites">
+										<p class="order-form__title h4">Реквизиты</p>
+										<svg width="15" height="11" viewBox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M11.8192 2.57346L12.9207 1L11 1L4 1L2.07934 1L3.18077 2.57346L6.68077 7.57346L7.5 8.74379L8.31923 7.57346L11.8192 2.57346Z" fill="#2F80ED" stroke="white" stroke-width="2"></path>
+										</svg>
+									</div>
+
+									<div class="order-form-block__content submenu" >
+										<div class="form-group field-orderform-docfile has-success">
+											<label class="control-label" for="orderform-docfile">Заполните форму или
+												приложите файл с Вашими реквизитами</label>
+											<input type="hidden" name="OrderForm[docFile]" value=""><input type="file"
+												id="orderform-docfile" name="OrderForm[docFile]" aria-invalid="false">
+
+											<div class="help-block"></div>
+										</div>
+										<div class="order-form-block__content js_hidden">
+											<div class="order-form__form form-group field-orderform-name required has-error">
+	
+												<input type="text" id="orderform-name" class="order-form__input"
+													name="OrderForm[name]" placeholder="Наименование организации*"
+													aria-required="true" aria-invalid="true">
+												<label for="">Наименование организации*</label>
+												<div class="help-block">Необходимо заполнить «Наименование».</div>
+											</div>
+											<div class="order-form__form form-group field-orderform-ur_address required">
+	
+												<input type="text" id="orderform-ur_address" class="order-form__input"
+													name="OrderForm[ur_address]" placeholder="Юридический адрес*"
+													aria-required="true">
+												<label for="">Юридический адрес*</label>
+												<div class="help-block"></div>
+											</div>
+											<div class="order-form__form form-group field-orderform-install_address required">
+	
+												<input type="text" id="orderform-install_address" class="order-form__input"
+													name="OrderForm[install_address]"
+													placeholder="Адрес размещения (установки программы)*" aria-required="true">
+												<label for="">Адрес размещения (установки программы)*</label>
+												<div class="help-block"></div>
+											</div>
+											<div class="order-form-block__container">
+												<div class="order-form-block__left">
+													<div class="order-form__form form-group field-orderform-mail_address required">
+	
+														<input type="text" id="orderform-mail_address" class="order-form__input"
+															name="OrderForm[mail_address]" placeholder="Почтовый адрес*"
+															aria-required="true">
+														<label for="">Почтовый адрес*</label>
+														<div class="help-block"></div>
+													</div>
+													<div class="order-form__form form-group field-orderform-position_lead required">
+	
+														<input type="text" id="orderform-position_lead"
+															class="order-form__input" name="OrderForm[position_lead]"
+															placeholder="Должность руководителя*" aria-required="true">
+														<label for="">Должность руководителя*</label>
+														<div class="help-block"></div>
+													</div>
+													<div class="order-form__form form-group field-orderform-unp required">
+	
+														<input type="text" id="orderform-unp" class="order-form__input"
+															name="OrderForm[unp]" placeholder="УНП*" aria-required="true">
+														<label for="">УНП*</label>
+														<div class="help-block"></div>
+													</div>
+													<div class="order-form__form form-group field-orderform-rs required">
+	
+														<input type="text" id="orderform-rs" class="order-form__input"
+															name="OrderForm[rs]" placeholder="Расчетный счет*"
+															aria-required="true">
+														<label for="">Расчетный счет*</label>
+														<div class="help-block"></div>
+													</div>
+													<div class="order-form__form form-group field-orderform-code_bank required">
+	
+														<input type="text" id="orderform-code_bank" class="order-form__input"
+															name="OrderForm[code_bank]" placeholder="Код банка (БИК)*"
+															aria-required="true">
+														<label for="">Код банка (БИК)*</label>
+														<div class="help-block"></div>
+													</div>
+													<div class="order-form__form form-group field-orderform-phone required">
+	
+														<input type="text" id="orderform-phone" class="order-form__input"
+															name="OrderForm[phone]" placeholder="Телефон организации*"
+															aria-required="true">
+														<label for="">Телефон организации*</label>
+														<div class="help-block"></div>
+													</div>
+												</div>
+												<div class="order-form-block__right">
+													<div class="order-form__form form-group field-orderform-fio_lead required">
+	
+														<input type="text" id="orderform-fio_lead" class="order-form__input"
+															name="OrderForm[fio_lead]" placeholder="ФИО руководителя*"
+															aria-required="true">
+														<label for="">ФИО руководителя*</label>
+														<div class="help-block"></div>
+													</div>
+													<div class="order-form__form form-group field-orderform-lead_position required">
+	
+														<input type="text" id="orderform-lead_position"
+															class="order-form__input" name="OrderForm[lead_position]"
+															placeholder="Руководитель действует на основании*"
+															aria-required="true">
+														<label for="">Руководитель действует на основании*</label>
+														<div class="help-block"></div>
+													</div>
+													<div class="order-form__form form-group field-orderform-okpo">
+	
+														<input type="text" id="orderform-okpo" class="order-form__input"
+															name="OrderForm[okpo]" placeholder="ОКПО">
+														<label for="">ОКПО</label>
+														<div class="help-block"></div>
+													</div>
+													<div class="order-form__form form-group field-orderform-bank required">
+	
+														<input type="text" id="orderform-bank" class="order-form__input"
+															name="OrderForm[bank]" placeholder="Банк*" aria-required="true">
+														<label for="">Банк*</label>
+														<div class="help-block"></div>
+													</div>
+													<div class="order-form__form form-group field-orderform-address_bank required">
+	
+														<input type="text" id="orderform-address_bank" class="order-form__input"
+															name="OrderForm[address_bank]" placeholder="Адрес банка*"
+															aria-required="true">
+														<label for="">Адрес банка*</label>
+														<div class="help-block"></div>
+													</div>
+													<div class="order-form__form form-group field-orderform-faks">
+	
+														<input type="text" id="orderform-faks" class="order-form__input"
+															name="OrderForm[faks]" placeholder="Факс организации">
+														<label for="">Факс организации</label>
+														<div class="help-block"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="order-form-block" data-form="buy" id="contacts-data">
+									<div class="order-form-block__header link" data-target="contacts-data">
+										<p class="order-form__title h4">Контактные данные</p>
+										<svg width="15" height="11" viewBox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M11.8192 2.57346L12.9207 1L11 1L4 1L2.07934 1L3.18077 2.57346L6.68077 7.57346L7.5 8.74379L8.31923 7.57346L11.8192 2.57346Z" fill="#2F80ED" stroke="white" stroke-width="2"></path>
+										</svg>
+									</div>
+									<div class="order-form-block__content submenu" style="display: none;">
+										<div class="order-form__form form-group field-orderform-clients required">
+
+											<input type="text" id="orderform-clients" class="order-form__input"
+												name="OrderForm[clients]" placeholder="Контактное лицо*"
+												aria-required="true">
+											<label for="">Контактное лицо*</label>
+											<div class="help-block"></div>
+										</div>
+										<div class="order-form-block__container">
+											<div class="order-form-block__left">
+												<div class="order-form__form form-group field-orderform-phone_clients required">
+
+													<input type="text" id="orderform-phone_clients"
+														class="order-form__input" name="OrderForm[phone_clients]"
+														placeholder="Телефон контактного лица*" aria-required="true">
+													<label for="">Телефон контактного лица*</label>
+													<div class="help-block"></div>
+												</div>
+											</div>
+											<div class="order-form-block__right">
+												<div class="order-form__form form-group field-orderform-email_clients required">
+
+													<input type="text" id="orderform-email_clients"
+														class="order-form__input" name="OrderForm[email_clients]"
+														placeholder="Email*" aria-required="true">
+													<label for="">Email*</label>
+													<div class="help-block"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="order-form-block" data-form="buy" id="version">
+									<div class="order-form-block__header link" data-target="version">
+										<p class="order-form__title h4">Версия приобретаемой программы SXW</p>
+										<svg width="15" height="11" viewBox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M11.8192 2.57346L12.9207 1L11 1L4 1L2.07934 1L3.18077 2.57346L6.68077 7.57346L7.5 8.74379L8.31923 7.57346L11.8192 2.57346Z" fill="#2F80ED" stroke="white" stroke-width="2"></path>
+										</svg>
+									</div>
+									<div class="order-form-block__content submenu" style="display: none;">
+										<div class="order-form__form form-group field-orderform-version required has-error">
+
+											<select id="orderform-version" class="form-control" name="OrderForm[version]"
+												aria-required="true" aria-invalid="true">
+												<option value="">Выберите версию*</option>
+												<option value="0">Локальная</option>
+												<option value="1">Сетевая</option>
+											</select>
+
+											<div class="help-block">Необходимо заполнить «Версия».</div>
+										</div>
+										<div class="order-form__form form-group field-orderform-counts_copy required has-error">
+
+											<input type="text" id="orderform-counts_copy" class="order-form__input"
+												name="OrderForm[counts_copy]" placeholder="Количество*" aria-required="true"
+												aria-invalid="true">
+											<label for="">Количество*</label>
+											<div class="help-block">Необходимо заполнить «Количество копий».</div>
+										</div>
+										<div class="order-form__form form-group field-orderform-subsc_period required has-error">
+
+											<select id="orderform-subsc_period" class="form-control"
+												name="OrderForm[subsc_period]" aria-required="true" aria-invalid="true">
+												<option value="">Срок подписки на обновление ПО и баз данных*</option>
+												<option value="0">Без сопровождения</option>
+												<option value="1">3 месяца</option>
+												<option value="2">6 месяцев</option>
+												<option value="3">1 год</option>
+											</select>
+
+											<div class="help-block">Необходимо заполнить «Срок подписки».</div>
+										</div>
+										<div class="order-form__form form-group field-orderform-install required">
+
+											<select id="orderform-install" class="form-control" name="OrderForm[install]"
+												aria-required="true">
+												<option value="">Требуется ли установка*</option>
+												<option value="0">Да</option>
+												<option value="1">Нет</option>
+											</select>
+
+											<div class="help-block"></div>
+										</div>
+										<div class="order-form__form form-group field-orderform-study required">
+
+											<select id="orderform-study" class="form-control" name="OrderForm[study]"
+												aria-required="true">
+												<option value="">Требуется ли обучение*</option>
+												<option value="0">Да</option>
+												<option value="1">Нет</option>
+											</select>
+
+											<div class="help-block"></div>
+										</div>
+										<div class="order-form__form form-group field-orderform-send_doc required">
+
+											<select id="orderform-send_doc" class="form-control" name="OrderForm[send_doc]"
+												aria-required="true">
+												<option value="">Выслать договор*</option>
+												<option value="0">e-mail</option>
+												<option value="1">На факс</option>
+												<option value="2">По почте</option>
+											</select>
+
+											<div class="help-block"></div>
+										</div>
+										<div class="order-form__form form-group field-orderform-note">
+
+											<input type="text" id="orderform-note" class="order-form__input"
+												name="OrderForm[note]" placeholder="Примечание">
+											<label for="">Примечание</label>
+											<div class="help-block"></div>
+										</div>
+									</div>
+								</li>
+							</ul>
+							<div class="form-bottom">
+								<div class="form-group field-orderform-recaptcha">
+									<input type="hidden" id="orderform-recaptcha" name="OrderForm[reCaptcha]">
+									<div id="orderform-recaptcha-recaptcha-order-form-soft" class="g-recaptcha"
+										data-sitekey="6Lfd-1oUAAAAAJDoCZxXWKlgt25_p0WKEWQkOj-k"
+										data-input-id="orderform-recaptcha" data-form-id="order-form-soft">
+										<div style="width: 304px; height: 78px;">
+											<div><iframe
+													src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Lfd-1oUAAAAAJDoCZxXWKlgt25_p0WKEWQkOj-k&amp;co=aHR0cHM6Ly93d3cuYmVsc21ldGEuYnk6NDQz&amp;hl=ru&amp;v=Y5tQ3lKwn1XL5hGgLz1kR4-1&amp;size=normal&amp;cb=fks5ol8mmm6m"
+													width="304" height="78" role="presentation" name="a-fzuw3dqr3gzs"
+													frameborder="0" scrolling="no"
+													sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
+											</div><textarea id="g-recaptcha-response" name="g-recaptcha-response"
+												class="g-recaptcha-response"
+												style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<button type="submit" class="btn btn-primary form-btn main-btn">Отправить</button> 
+								</div>
+							</div>
+
+						</form>
+					</div>
+				</div>
+				<div class="modal-close close-modal">
+					<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M20 2L2 20" stroke="#141517" stroke-width="3" />
+						<path d="M2 2L20 20" stroke="#141517" stroke-width="3" />
+					</svg>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+		integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
+		integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA=="
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/8.5.15/mmenu.js"
+		integrity="sha512-mcUmKmHN2LlUv5Z7QdQKnwbKGSJD2ql0fKiawNOgxsYhKLVdxXraZf7LElf63O8rLVVUhazxo8M+KtqKFuF6iA=="
+		crossorigin="anonymous"></script>
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/8.5.15/extensions/effects/mmenu.effects.min.css"
+		integrity="sha512-IDCvL9ESRxvy7e5aVmGIaWoH6OAOpY5kP0pWz3+yeywTXYC9Lvhxk48VWpYbaW8jvem2DOkrOtplOCAYIfg1vg=="
+		crossorigin="anonymous" />
+	<script src="js/scripts.min.js"></script>
+
+</body>
+
+</html>
